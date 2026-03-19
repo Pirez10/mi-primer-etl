@@ -1,0 +1,501 @@
+customer_id,first_name,last_name,email,phone,birth_date,city,country,postal_code,segment,registration_date,last_login,is_verified,accepts_marketing
+1,Martín,Pérez,martín.pérez1@email.com,+1 303-223-8147,1992-08-25,Tucumán,Argentina,23199,Gold,2020-05-30,2023-09-15,true,0
+2,Valentina,Rodríguez,valentina.rodríguez2@email.com,+1 634-466-2406,2000-01-24,Mendoza,Argentina,90638,Silver,2023-05-28,2024-01-28,true,1
+3,Pedro,Fernández,pedro.fernández3@email.com,+1 856-967-4754,1984-08-02,Salta,Uruguay,51303,Gold,2020-04-12,2020-09-16,true,0
+4,Carlos,Ramírez,carlos.ramírez4@email.com,+1 743-346-1425,1987-09-06,Salta,México,83354,Silver,2022-01-06,2022-05-17,true,0
+5,Lucas,González,lucas.gonzález5@email.com,+1 257-907-4930,1966-07-29,Rosario,Perú,39336,Silver,2020-12-05,2022-08-14,true,1
+6,Mateo,González,mateo.gonzález6@email.com,+1 593-430-6358,1967-04-30,Rosario,Chile,58571,Bronze,2022-08-05,2024-01-28,true,0
+7,Carlos,Sánchez,carlos.sánchez7@email.com,+1 768-950-6889,2004-01-05,Neuquén,Chile,93979,Silver,2020-05-06,2023-02-28,true,0
+8,Mateo,García,mateo.garcía8@email.com,+1 669-563-3497,1979-04-29,Santa Fe,Argentina,11176,Gold,2022-03-02,2023-03-11,true,1
+9,Lucía,López,lucía.lópez9@email.com,+1 608-293-3763,1984-08-22,Tucumán,Uruguay,25902,Platinum,2023-10-10,2026-02-14,true,1
+10,Diego,González,diego.gonzález10@email.com,+1 658-899-8470,1980-02-24,Tucumán,Argentina,33685,Platinum,2021-08-25,2024-06-14,true,0
+11,Laura,Rodríguez,laura.rodríguez11@email.com,+1 611-524-2836,1996-03-27,Neuquén,Uruguay,83298,Silver,2022-09-02,2023-03-10,false,0
+12,Diego,Fernández,diego.fernández12@email.com,+1 868-306-5165,1987-03-07,Salta,Argentina,52580,Gold,2023-09-12,2024-02-06,true,1
+13,Ana,López,ana.lópez13@email.com,+1 401-800-1679,1968-07-28,Salta,México,44119,Bronze,2023-10-08,2024-06-05,false,0
+14,Ana,Torres,ana.torres14@email.com,+1 752-438-4034,1976-06-20,Mendoza,Argentina,70273,Bronze,2023-04-01,2023-10-15,true,1
+15,Gabriel,Torres,gabriel.torres15@email.com,+1 252-157-6441,1971-11-29,Córdoba,Argentina,51132,Bronze,2021-10-04,2023-12-16,true,1
+16,Sofía,Torres,sofía.torres16@email.com,+1 897-942-5408,1960-02-28,Mar del Plata,Chile,53173,Bronze,2021-10-27,2025-03-02,true,0
+17,Pedro,Ramírez,pedro.ramírez17@email.com,+1 965-592-1288,1997-02-15,Tucumán,Argentina,49755,Platinum,2022-11-25,2024-08-24,true,1
+18,Sofía,Sánchez,sofía.sánchez18@email.com,+1 968-162-5942,1964-10-04,Mar del Plata,México,93370,Silver,2022-01-31,2022-07-02,true,1
+19,Sofía,Fernández,sofía.fernández19@email.com,+1 513-153-8201,1961-06-01,Córdoba,México,25864,Bronze,2024-04-27,2025-11-06,false,1
+20,Diego,López,diego.lópez20@email.com,+1 395-993-5940,1969-12-02,Rosario,Chile,63656,Platinum,2022-08-20,2025-02-19,true,1
+21,Gabriel,García,gabriel.garcía21@email.com,+1 704-870-6060,1964-09-03,Mar del Plata,Argentina,32302,Bronze,2021-04-17,2025-07-31,true,0
+22,Mateo,Torres,mateo.torres22@email.com,+1 801-440-8172,1999-03-31,Neuquén,Argentina,95288,Silver,2023-06-06,2024-07-01,true,1
+23,Carlos,Sánchez,carlos.sánchez23@email.com,+1 357-597-1491,1974-01-04,Mar del Plata,Perú,74325,Bronze,2021-02-20,2025-02-11,true,1
+24,María,Martínez,maría.martínez24@email.com,+1 410-827-1632,1988-02-05,La Plata,Colombia,55226,Bronze,2020-10-08,2022-08-24,false,1
+25,Pedro,López,pedro.lópez25@email.com,+1 991-286-5250,1966-07-19,Córdoba,Chile,58104,Silver,2022-11-23,2025-10-10,true,0
+26,Sofía,Sánchez,sofía.sánchez26@email.com,+1 400-467-6989,2003-08-09,Rosario,Argentina,28918,Platinum,2022-10-23,2025-02-08,true,0
+27,Sofía,López,sofía.lópez27@email.com,+1 425-303-6242,2004-05-16,Mar del Plata,Argentina,60663,Platinum,2023-12-11,2024-10-22,true,1
+28,Gabriel,Pérez,gabriel.pérez28@email.com,+1 266-692-1731,1986-07-01,Tucumán,Argentina,20887,Silver,2021-09-25,2026-02-02,true,0
+29,Valentina,González,valentina.gonzález29@email.com,+1 241-960-4011,2001-10-23,Tucumán,Argentina,79659,Platinum,2020-11-13,2021-10-30,true,1
+30,Ana,Sánchez,ana.sánchez30@email.com,+1 656-647-5433,1988-10-21,Mar del Plata,Uruguay,38233,Bronze,2023-05-21,2023-12-14,true,1
+31,Valentina,Pérez,valentina.pérez31@email.com,+1 349-226-8310,1973-03-13,Mar del Plata,Argentina,40869,Gold,2022-09-21,2024-06-12,true,1
+32,María,García,maría.garcía32@email.com,+1 438-349-9094,1975-10-18,Rosario,Argentina,79738,Platinum,2021-12-02,2022-03-16,true,0
+33,Pedro,López,pedro.lópez33@email.com,+1 898-159-5418,1997-12-12,Santa Fe,Argentina,23648,Platinum,2024-05-23,2025-09-08,true,1
+34,Gabriel,García,gabriel.garcía34@email.com,+1 232-792-5416,1992-09-22,Neuquén,Perú,56555,Silver,2023-05-06,2025-12-20,true,0
+35,Lucas,López,lucas.lópez35@email.com,+1 783-731-2597,1994-03-02,Mar del Plata,Colombia,53165,Platinum,2020-06-07,2025-07-28,true,1
+36,Lucía,Sánchez,lucía.sánchez36@email.com,+1 257-905-6854,1983-10-23,Salta,Chile,49464,Bronze,2020-01-30,2024-09-19,false,0
+37,Lucas,Pérez,lucas.pérez37@email.com,+1 680-627-8371,1976-03-16,Mar del Plata,Perú,29278,Platinum,2024-05-09,2025-11-01,true,1
+38,Diego,Pérez,diego.pérez38@email.com,+1 356-129-7654,1970-05-30,Buenos Aires,Argentina,77982,Silver,2023-01-08,2025-03-12,false,0
+39,Carlos,Ramírez,carlos.ramírez39@email.com,+1 282-911-2113,1961-02-11,Buenos Aires,Perú,55078,Platinum,2021-01-09,2022-02-23,true,1
+40,Valentina,García,valentina.garcía40@email.com,+1 977-444-8704,1985-10-31,Mendoza,Colombia,71428,Silver,2020-02-27,2021-01-15,false,1
+41,Sofía,González,sofía.gonzález41@email.com,+1 516-265-7153,1987-06-27,La Plata,Chile,55585,Gold,2022-02-04,2023-11-03,true,0
+42,Juan,Fernández,juan.fernández42@email.com,+1 410-988-7977,2003-07-05,Córdoba,Argentina,85715,Bronze,2020-03-14,2024-11-07,true,1
+43,Laura,Torres,laura.torres43@email.com,+1 867-309-8640,1973-01-09,Rosario,Colombia,78787,Bronze,2022-12-31,2025-11-28,true,1
+44,Martín,González,martín.gonzález44@email.com,+1 580-752-6010,2004-05-05,Santa Fe,México,87355,Bronze,2021-07-27,2024-01-01,false,1
+45,Carlos,Martínez,carlos.martínez45@email.com,+1 254-715-3617,1989-09-15,Salta,Chile,71856,Bronze,2023-09-11,2025-08-22,true,0
+46,Martín,González,martín.gonzález46@email.com,+1 722-976-9526,1991-11-23,Buenos Aires,México,33041,Bronze,2021-07-17,2024-01-10,false,1
+47,María,Rodríguez,maría.rodríguez47@email.com,+1 404-905-8098,1968-09-25,Mendoza,México,17320,Silver,2020-03-08,2025-11-10,false,0
+48,Gabriel,Martínez,gabriel.martínez48@email.com,+1 253-553-4673,2004-11-25,Mendoza,Colombia,41757,Platinum,2020-10-23,2021-08-30,true,0
+49,Lucas,Rodríguez,lucas.rodríguez49@email.com,+1 955-769-7681,1999-03-25,Rosario,México,45298,Platinum,2022-03-21,2022-08-28,false,0
+50,Ana,López,ana.lópez50@email.com,+1 800-794-9044,1982-12-25,Rosario,México,18081,Silver,2024-03-21,2025-03-31,true,1
+51,Mateo,Martínez,mateo.martínez51@email.com,+1 493-668-6801,1972-05-08,Mar del Plata,Uruguay,99832,Silver,2024-04-27,2024-08-17,true,0
+52,Lucas,López,lucas.lópez52@email.com,+1 665-828-4470,1974-04-10,Santa Fe,Colombia,41076,Silver,2024-04-08,2025-08-29,true,0
+53,Martín,Fernández,martín.fernández53@email.com,+1 822-913-1779,1993-02-14,Mar del Plata,México,87804,Bronze,2022-12-14,2024-01-07,true,0
+54,Gabriel,Pérez,gabriel.pérez54@email.com,+1 949-928-2365,1963-12-23,La Plata,México,78213,Bronze,2020-12-18,2024-07-22,true,0
+55,Laura,Pérez,laura.pérez55@email.com,+1 393-282-4267,1983-04-24,Tucumán,Argentina,25681,Bronze,2020-12-08,2021-06-14,true,1
+56,Diego,García,diego.garcía56@email.com,+1 597-811-8552,1974-06-12,Mar del Plata,Uruguay,23993,Bronze,2020-06-14,2024-10-20,true,0
+57,Lucas,Torres,lucas.torres57@email.com,+1 705-259-7526,1995-12-10,Buenos Aires,Argentina,12106,Gold,2023-09-03,2024-02-19,false,1
+58,Carlos,Pérez,carlos.pérez58@email.com,+1 446-938-3326,1962-12-06,Mar del Plata,Colombia,52441,Bronze,2023-11-06,2025-08-15,false,1
+59,Ana,Pérez,ana.pérez59@email.com,+1 492-828-5669,1964-04-13,Salta,Colombia,37723,Platinum,2020-10-08,2020-10-10,false,0
+60,Pedro,Martínez,pedro.martínez60@email.com,+1 428-101-5588,1963-11-03,Neuquén,Argentina,43678,Platinum,2020-12-30,2025-02-20,true,0
+61,Juan,Sánchez,juan.sánchez61@email.com,+1 474-947-6400,2001-08-20,Salta,Argentina,29185,Silver,2023-02-25,2024-03-09,true,1
+62,Martín,Pérez,martín.pérez62@email.com,+1 381-417-6110,1981-01-01,Córdoba,Perú,39841,Platinum,2020-06-29,2020-09-20,true,0
+63,Laura,Pérez,laura.pérez63@email.com,+1 379-368-4266,1985-12-02,Mar del Plata,Uruguay,82739,Silver,2020-01-27,2021-03-25,true,0
+64,Valentina,Pérez,valentina.pérez64@email.com,+1 926-190-9085,1993-07-14,Buenos Aires,Argentina,35460,Bronze,2021-07-01,2024-11-30,true,1
+65,Lucas,García,lucas.garcía65@email.com,+1 986-795-5792,2002-08-14,Neuquén,México,80571,Silver,2021-02-19,2022-10-24,false,1
+66,Juan,López,juan.lópez66@email.com,+1 911-435-4663,1999-08-26,Tucumán,Argentina,72452,Platinum,2024-05-30,2024-08-21,true,1
+67,Ana,López,ana.lópez67@email.com,+1 492-280-8192,1982-01-10,Neuquén,Uruguay,57434,Silver,2023-08-29,2025-08-28,true,1
+68,Lucas,Torres,lucas.torres68@email.com,+1 208-134-6453,1972-03-31,Salta,Uruguay,81577,Platinum,2022-12-30,2026-01-12,false,1
+69,Gabriel,Pérez,gabriel.pérez69@email.com,+1 435-315-1418,1984-03-13,La Plata,Argentina,31831,Silver,2024-04-04,2025-06-23,true,0
+70,Valentina,García,valentina.garcía70@email.com,+1 451-699-7817,1972-10-12,Tucumán,Argentina,46143,Gold,2022-08-08,2025-07-24,false,1
+71,Gabriel,Torres,gabriel.torres71@email.com,+1 532-472-1479,2004-09-02,Buenos Aires,Perú,24820,Platinum,2020-11-13,2025-12-02,true,1
+72,Lucas,Martínez,lucas.martínez72@email.com,+1 748-152-1166,2000-01-13,Mendoza,Argentina,17074,Silver,2023-11-26,2024-01-05,false,0
+73,Pedro,Ramírez,pedro.ramírez73@email.com,+1 477-409-9881,2002-01-03,Mendoza,Argentina,75103,Bronze,2023-09-08,2025-05-07,false,1
+74,Carlos,López,carlos.lópez74@email.com,+1 635-490-8176,2003-03-30,Neuquén,Argentina,62046,Silver,2023-10-31,2024-05-20,true,1
+75,Mateo,Martínez,mateo.martínez75@email.com,+1 429-689-4610,1964-09-14,Córdoba,Chile,53894,Bronze,2022-02-05,2024-10-20,true,0
+76,Carlos,Rodríguez,carlos.rodríguez76@email.com,+1 516-168-8365,2004-03-16,Salta,Argentina,30800,Platinum,2021-03-15,2021-09-25,false,0
+77,Martín,García,martín.garcía77@email.com,+1 300-176-7569,1976-07-07,Tucumán,Argentina,36373,Gold,2023-10-15,2025-08-10,true,1
+78,Laura,Sánchez,laura.sánchez78@email.com,+1 686-862-8915,1963-01-22,Tucumán,Uruguay,40877,Silver,2021-10-09,2023-10-27,true,0
+79,Gabriel,Martínez,gabriel.martínez79@email.com,+1 370-128-8835,1999-05-09,Tucumán,Perú,65573,Gold,2021-04-30,2025-02-02,false,0
+80,Camila,García,camila.garcía80@email.com,+1 724-403-2956,1963-12-24,Tucumán,México,44450,Bronze,2022-10-27,2023-06-17,true,1
+81,Pedro,López,pedro.lópez81@email.com,+1 456-524-6089,1971-09-02,Mar del Plata,Argentina,46940,Bronze,2021-07-27,2021-12-06,true,1
+82,Lucas,Torres,lucas.torres82@email.com,+1 413-363-6400,1981-05-09,Buenos Aires,Argentina,41550,Gold,2022-03-24,2022-07-18,true,0
+83,Mateo,Ramírez,mateo.ramírez83@email.com,+1 768-966-4408,1972-09-07,Mendoza,Perú,10096,Gold,2023-06-29,2026-01-07,true,0
+84,Ana,Pérez,ana.pérez84@email.com,+1 541-227-3846,2001-08-29,Rosario,Perú,57091,Silver,2022-01-23,2023-03-06,false,1
+85,Juan,Martínez,juan.martínez85@email.com,+1 980-691-7210,1987-08-16,Rosario,Chile,52380,Platinum,2023-01-14,2024-01-09,false,0
+86,Martín,Ramírez,martín.ramírez86@email.com,+1 782-834-9640,1979-12-08,Santa Fe,Argentina,64124,Platinum,2024-04-15,2024-07-18,true,1
+87,Valentina,Fernández,valentina.fernández87@email.com,+1 411-464-8872,1992-04-21,Córdoba,Colombia,98570,Platinum,2020-08-11,2022-06-11,true,0
+88,Juan,Sánchez,juan.sánchez88@email.com,+1 637-732-9682,1989-05-18,Tucumán,Argentina,61912,Gold,2022-09-08,2023-10-05,true,1
+89,Valentina,Rodríguez,valentina.rodríguez89@email.com,+1 328-122-3935,1960-03-19,Mendoza,Argentina,59877,Bronze,2020-07-21,2025-04-06,true,1
+90,Diego,Pérez,diego.pérez90@email.com,+1 824-501-5481,2001-09-13,La Plata,Argentina,99520,Silver,2022-02-11,2025-04-10,false,1
+91,Carlos,Ramírez,carlos.ramírez91@email.com,+1 235-930-8250,1979-01-26,Tucumán,Uruguay,32655,Platinum,2022-05-12,2023-01-22,true,1
+92,Sofía,Ramírez,sofía.ramírez92@email.com,+1 832-321-5524,1973-08-30,Salta,Argentina,25374,Silver,2024-05-21,2024-07-22,false,0
+93,Laura,González,laura.gonzález93@email.com,+1 763-943-5787,1967-12-01,Salta,Uruguay,28627,Platinum,2020-12-16,2025-07-09,true,0
+94,Martín,Rodríguez,martín.rodríguez94@email.com,+1 581-465-5313,1975-04-27,Santa Fe,Perú,10283,Platinum,2020-03-19,2021-05-26,false,1
+95,Pedro,Martínez,pedro.martínez95@email.com,+1 515-222-9631,1998-08-15,Tucumán,Uruguay,59773,Platinum,2021-05-17,2022-11-09,true,0
+96,Camila,Sánchez,camila.sánchez96@email.com,+1 347-744-8512,2003-08-12,Córdoba,Argentina,36978,Bronze,2022-02-01,2024-02-28,true,1
+97,Juan,Torres,juan.torres97@email.com,+1 728-414-4727,1982-03-18,Salta,México,47100,Bronze,2021-05-01,2021-07-09,true,1
+98,Gabriel,Ramírez,gabriel.ramírez98@email.com,+1 769-425-5887,1977-06-23,Mendoza,Uruguay,76601,Bronze,2022-08-30,2025-05-24,true,1
+99,Martín,Pérez,martín.pérez99@email.com,+1 846-217-1503,1977-09-09,Santa Fe,Uruguay,16010,Platinum,2020-12-28,2022-07-17,false,0
+100,María,Martínez,maría.martínez100@email.com,+1 901-714-5187,1972-08-15,Santa Fe,Uruguay,93074,Silver,2020-04-17,2024-10-18,false,1
+101,Lucas,Ramírez,lucas.ramírez101@email.com,+1 540-802-9061,1997-06-14,Tucumán,Argentina,21123,Platinum,2021-02-12,2021-04-10,true,1
+102,Lucas,Ramírez,lucas.ramírez102@email.com,+1 507-567-6232,1971-03-30,Buenos Aires,México,52286,Bronze,2022-11-02,2024-02-28,true,0
+103,Lucas,Torres,lucas.torres103@email.com,+1 564-695-8092,1966-01-12,Mar del Plata,Colombia,31468,Silver,2023-11-04,2025-08-08,true,1
+104,Lucía,López,lucía.lópez104@email.com,+1 284-319-9502,1977-05-08,Tucumán,Argentina,98017,Gold,2021-10-04,2023-01-07,false,1
+105,Sofía,Sánchez,sofía.sánchez105@email.com,+1 753-556-1097,1964-11-01,La Plata,Perú,16941,Gold,2020-12-26,2022-11-09,true,0
+106,Sofía,Martínez,sofía.martínez106@email.com,+1 279-475-4910,1994-04-14,La Plata,México,74694,Silver,2023-12-20,2024-04-17,true,0
+107,Diego,Fernández,diego.fernández107@email.com,+1 858-525-8733,1985-05-12,Rosario,México,58207,Silver,2024-05-05,2024-07-30,true,1
+108,Gabriel,Torres,gabriel.torres108@email.com,+1 415-806-2193,1997-04-13,Mendoza,Argentina,32882,Bronze,2023-08-06,2023-10-01,true,1
+109,Gabriel,González,gabriel.gonzález109@email.com,+1 240-412-4237,1988-07-21,Rosario,Argentina,63646,Silver,2020-02-21,2021-11-16,false,1
+110,María,Fernández,maría.fernández110@email.com,+1 567-108-6305,1974-07-27,Mendoza,Chile,58491,Silver,2020-01-18,2023-11-29,false,1
+111,Juan,Rodríguez,juan.rodríguez111@email.com,+1 683-121-7247,1980-03-30,Córdoba,México,47275,Bronze,2021-10-09,2023-04-16,true,1
+112,Gabriel,Pérez,gabriel.pérez112@email.com,+1 566-867-2688,1964-02-27,Salta,Colombia,78179,Silver,2020-01-04,2023-04-20,false,1
+113,Pedro,López,pedro.lópez113@email.com,+1 590-114-6225,1995-05-13,Rosario,Argentina,39113,Bronze,2023-10-26,2025-06-24,true,0
+114,Pedro,González,pedro.gonzález114@email.com,+1 573-827-3285,1968-03-26,Mendoza,Uruguay,92615,Bronze,2021-02-16,2023-08-08,true,0
+115,Gabriel,Fernández,gabriel.fernández115@email.com,+1 431-291-5139,1981-11-04,Santa Fe,Uruguay,63514,Silver,2024-01-12,2025-06-17,true,1
+116,Mateo,Martínez,mateo.martínez116@email.com,+1 506-701-4173,1982-03-29,Mar del Plata,Perú,72150,Gold,2023-07-10,2024-11-21,true,0
+117,Valentina,García,valentina.garcía117@email.com,+1 765-152-8691,1992-03-28,Buenos Aires,Argentina,51736,Silver,2020-04-22,2025-06-02,false,1
+118,Pedro,Ramírez,pedro.ramírez118@email.com,+1 506-221-1993,1961-06-08,Mendoza,Argentina,13483,Silver,2021-04-25,2021-07-04,true,1
+119,Sofía,López,sofía.lópez119@email.com,+1 618-782-4830,1996-01-08,Salta,Argentina,91373,Silver,2020-12-20,2025-09-20,false,1
+120,Camila,Torres,camila.torres120@email.com,+1 391-208-1203,1962-03-26,Córdoba,Argentina,76169,Gold,2022-12-27,2023-04-23,true,0
+121,Laura,García,laura.garcía121@email.com,+1 897-248-3810,1995-03-12,Córdoba,Perú,60659,Platinum,2021-10-09,2022-08-08,true,1
+122,Camila,García,camila.garcía122@email.com,+1 562-924-5314,1978-04-07,Mar del Plata,México,25373,Silver,2021-03-09,2023-11-04,true,0
+123,Pedro,García,pedro.garcía123@email.com,+1 271-290-7939,1991-11-15,Mar del Plata,Colombia,33705,Bronze,2022-01-04,2024-10-01,true,1
+124,Pedro,Rodríguez,pedro.rodríguez124@email.com,+1 255-243-9091,2005-02-18,Tucumán,Colombia,85291,Platinum,2020-12-02,2025-05-10,true,1
+125,Gabriel,López,gabriel.lópez125@email.com,+1 233-566-5869,1997-10-23,Mendoza,Uruguay,53430,Platinum,2022-04-04,2023-04-28,false,1
+126,Sofía,García,sofía.garcía126@email.com,+1 917-574-1731,1982-07-18,Tucumán,Argentina,58536,Platinum,2024-02-09,2025-02-18,false,0
+127,Mateo,Fernández,mateo.fernández127@email.com,+1 614-115-7816,1980-09-05,La Plata,Perú,50580,Platinum,2020-04-04,2021-02-10,true,0
+128,Martín,Ramírez,martín.ramírez128@email.com,+1 766-195-8872,1972-01-16,Mendoza,Argentina,83891,Silver,2023-07-05,2025-05-20,true,0
+129,Lucía,Torres,lucía.torres129@email.com,+1 834-956-2858,1960-09-21,Mendoza,México,92642,Silver,2023-01-09,2024-08-31,true,0
+130,Sofía,López,sofía.lópez130@email.com,+1 829-992-7481,1966-03-25,Santa Fe,Argentina,17336,Bronze,2020-03-19,2023-05-30,true,0
+131,Camila,Fernández,camila.fernández131@email.com,+1 615-489-9185,1980-07-09,Buenos Aires,Colombia,92806,Platinum,2021-05-27,2023-12-04,true,1
+132,Lucía,Rodríguez,lucía.rodríguez132@email.com,+1 545-345-2767,1992-04-30,Córdoba,Chile,10273,Silver,2021-02-05,2024-12-22,false,1
+133,Camila,Ramírez,camila.ramírez133@email.com,+1 433-185-9199,1993-01-16,Mendoza,Argentina,95504,Bronze,2021-05-14,2023-11-23,true,1
+134,Valentina,López,valentina.lópez134@email.com,+1 317-485-8248,1967-04-02,Tucumán,Perú,73402,Platinum,2023-03-19,2025-03-23,true,0
+135,Lucas,García,lucas.garcía135@email.com,+1 565-858-1778,1982-08-22,Mendoza,Argentina,68275,Silver,2024-02-24,2025-03-23,true,0
+136,Sofía,Torres,sofía.torres136@email.com,+1 528-674-6818,1967-07-31,Rosario,Chile,88265,Platinum,2022-08-30,2024-12-22,true,0
+137,Mateo,Fernández,mateo.fernández137@email.com,+1 451-596-3620,1978-07-09,Tucumán,México,59092,Silver,2021-01-23,2025-11-29,true,1
+138,Mateo,Martínez,mateo.martínez138@email.com,+1 335-240-9387,1960-02-02,Rosario,Chile,83144,Silver,2020-02-11,2024-05-15,false,0
+139,Sofía,Martínez,sofía.martínez139@email.com,+1 972-393-9082,1970-01-08,Santa Fe,Argentina,27701,Gold,2021-01-06,2024-08-25,true,1
+140,Pedro,González,pedro.gonzález140@email.com,+1 740-666-2805,1980-09-07,Neuquén,Argentina,69594,Bronze,2024-02-24,2025-09-23,true,1
+141,María,Rodríguez,maría.rodríguez141@email.com,+1 450-207-1407,1997-08-25,Mendoza,Uruguay,24627,Silver,2020-05-18,2025-01-15,true,0
+142,Pedro,Fernández,pedro.fernández142@email.com,+1 968-263-8560,1972-03-27,Mendoza,Uruguay,40563,Platinum,2020-04-23,2021-09-15,false,0
+143,Diego,Fernández,diego.fernández143@email.com,+1 556-246-7619,2003-05-12,Mendoza,México,34402,Gold,2020-03-27,2020-11-12,true,0
+144,Mateo,González,mateo.gonzález144@email.com,+1 586-805-3606,2002-11-04,Tucumán,Argentina,36369,Gold,2020-06-01,2020-12-06,true,0
+145,Sofía,Sánchez,sofía.sánchez145@email.com,+1 922-615-1184,1970-08-20,Mar del Plata,Argentina,70660,Bronze,2022-12-21,2023-08-19,true,1
+146,Camila,Sánchez,camila.sánchez146@email.com,+1 249-766-2183,1969-05-08,Tucumán,México,54400,Gold,2021-08-25,2022-06-24,false,1
+147,María,Rodríguez,maría.rodríguez147@email.com,+1 901-705-4119,1964-08-29,Rosario,México,69374,Bronze,2022-09-29,2022-11-21,false,1
+148,Diego,Ramírez,diego.ramírez148@email.com,+1 208-367-3518,2003-09-07,Mar del Plata,Argentina,61699,Bronze,2021-03-15,2023-07-19,false,1
+149,Lucía,López,lucía.lópez149@email.com,+1 269-479-9655,2002-05-15,Córdoba,Argentina,67837,Bronze,2022-10-15,2023-01-23,false,0
+150,Ana,Sánchez,ana.sánchez150@email.com,+1 651-375-9757,1967-08-31,Santa Fe,Argentina,87662,Silver,2020-02-02,2023-03-23,true,1
+151,Valentina,López,valentina.lópez151@email.com,+1 225-904-5262,1964-05-27,Córdoba,Colombia,65197,Platinum,2023-06-11,2025-02-16,true,0
+152,Martín,Fernández,martín.fernández152@email.com,+1 261-474-6273,1963-10-13,La Plata,Chile,46019,Platinum,2022-05-02,2022-11-08,true,1
+153,Carlos,Martínez,carlos.martínez153@email.com,+1 677-134-1578,1961-12-12,Neuquén,Argentina,43794,Bronze,2021-05-15,2025-12-18,true,0
+154,Lucas,Ramírez,lucas.ramírez154@email.com,+1 875-575-5658,1961-11-13,Mar del Plata,Argentina,37523,Gold,2021-07-02,2022-04-26,false,0
+155,Martín,Rodríguez,martín.rodríguez155@email.com,+1 743-422-4442,1980-04-18,Mendoza,Chile,33814,Silver,2021-10-26,2025-03-07,true,0
+156,María,Sánchez,maría.sánchez156@email.com,+1 434-999-6174,2000-08-26,Neuquén,Colombia,90300,Platinum,2021-12-25,2023-09-07,true,0
+157,Juan,López,juan.lópez157@email.com,+1 665-254-1127,1966-02-18,Santa Fe,Argentina,68626,Silver,2022-02-15,2024-02-06,false,1
+158,Diego,López,diego.lópez158@email.com,+1 273-153-9976,2004-02-12,Tucumán,Argentina,94402,Silver,2022-03-04,2025-04-27,true,0
+159,Pedro,González,pedro.gonzález159@email.com,+1 972-478-1164,1990-09-29,Mendoza,México,28391,Silver,2021-02-12,2024-10-26,false,0
+160,Martín,Fernández,martín.fernández160@email.com,+1 461-939-7243,1992-01-02,La Plata,Argentina,94304,Silver,2021-04-15,2025-01-27,true,1
+161,Martín,López,martín.lópez161@email.com,+1 834-326-1130,1962-03-20,Salta,Chile,77800,Bronze,2023-05-16,2025-04-14,true,0
+162,Sofía,González,sofía.gonzález162@email.com,+1 302-592-9095,1986-11-19,Mar del Plata,Argentina,65153,Silver,2021-07-10,2025-07-18,false,0
+163,Lucía,Sánchez,lucía.sánchez163@email.com,+1 689-851-8263,1970-10-21,Mar del Plata,Perú,77539,Platinum,2023-08-06,2024-01-30,false,1
+164,Mateo,Sánchez,mateo.sánchez164@email.com,+1 878-440-2071,1970-12-23,La Plata,Argentina,57627,Platinum,2022-09-02,2024-12-04,false,1
+165,Ana,Ramírez,ana.ramírez165@email.com,+1 293-610-8298,1971-08-31,Mar del Plata,Colombia,17859,Silver,2021-11-06,2025-08-29,true,1
+166,Juan,García,juan.garcía166@email.com,+1 921-570-6631,1982-11-05,Córdoba,Perú,43276,Gold,2020-08-15,2025-06-28,false,1
+167,Pedro,López,pedro.lópez167@email.com,+1 750-942-3090,1975-04-30,Rosario,Argentina,19751,Silver,2021-09-24,2024-09-05,true,0
+168,Carlos,Ramírez,carlos.ramírez168@email.com,+1 587-427-5320,1992-08-09,Tucumán,Uruguay,38597,Bronze,2020-03-31,2022-11-09,true,0
+169,Lucía,Pérez,lucía.pérez169@email.com,+1 721-622-7452,1976-10-25,Salta,Argentina,27580,Platinum,2022-09-01,2025-01-27,true,0
+170,Gabriel,García,gabriel.garcía170@email.com,+1 281-664-7257,1987-05-08,Mendoza,Perú,61610,Platinum,2021-07-05,2025-08-19,true,1
+171,María,Rodríguez,maría.rodríguez171@email.com,+1 406-930-5538,1965-05-29,Tucumán,Uruguay,69044,Bronze,2020-05-13,2023-05-17,false,1
+172,María,Rodríguez,maría.rodríguez172@email.com,+1 907-818-8867,1981-10-15,Mar del Plata,Perú,29376,Silver,2022-01-14,2024-06-07,true,1
+173,Sofía,Martínez,sofía.martínez173@email.com,+1 775-304-9254,1998-12-09,Salta,Argentina,98385,Silver,2021-09-11,2023-05-01,true,0
+174,Lucía,Ramírez,lucía.ramírez174@email.com,+1 310-685-3564,1966-01-25,Mendoza,Argentina,78546,Bronze,2022-02-15,2024-04-03,true,0
+175,Martín,Sánchez,martín.sánchez175@email.com,+1 635-357-2989,1974-11-21,Córdoba,Uruguay,66207,Gold,2021-10-06,2022-07-07,true,0
+176,Martín,Sánchez,martín.sánchez176@email.com,+1 991-226-5718,1993-08-18,Tucumán,Uruguay,12719,Bronze,2024-02-12,2025-10-02,true,1
+177,Pedro,Torres,pedro.torres177@email.com,+1 253-708-3994,1960-12-11,Tucumán,Argentina,34792,Silver,2022-09-19,2023-04-20,false,1
+178,Sofía,Martínez,sofía.martínez178@email.com,+1 514-719-9807,1977-01-21,Neuquén,Chile,35327,Platinum,2024-05-05,2024-09-07,false,1
+179,Lucía,López,lucía.lópez179@email.com,+1 803-501-6872,2005-04-20,Mendoza,Argentina,68617,Silver,2020-07-14,2024-11-02,false,1
+180,Diego,Rodríguez,diego.rodríguez180@email.com,+1 488-349-1252,1980-11-07,La Plata,Uruguay,33027,Gold,2021-05-30,2023-09-23,true,0
+181,Lucas,Sánchez,lucas.sánchez181@email.com,+1 972-707-6157,1981-09-15,Mendoza,Argentina,89537,Platinum,2020-11-10,2025-03-04,true,0
+182,María,González,maría.gonzález182@email.com,+1 887-778-5358,1990-04-16,Santa Fe,Chile,78590,Platinum,2023-12-23,2025-01-11,true,1
+183,María,Pérez,maría.pérez183@email.com,+1 404-542-9508,2002-09-11,Rosario,Argentina,53865,Silver,2020-10-03,2025-03-25,true,0
+184,María,Martínez,maría.martínez184@email.com,+1 294-816-2341,1998-07-19,Santa Fe,México,75979,Platinum,2020-10-15,2023-09-04,false,0
+185,Pedro,Pérez,pedro.pérez185@email.com,+1 220-849-1574,1997-10-12,Mendoza,Uruguay,92933,Silver,2020-12-01,2024-10-09,true,0
+186,Lucas,González,lucas.gonzález186@email.com,+1 501-501-2355,1988-05-28,Tucumán,México,98247,Silver,2022-05-26,2023-04-06,true,0
+187,Pedro,López,pedro.lópez187@email.com,+1 870-475-2081,1979-05-27,Neuquén,Uruguay,69625,Platinum,2024-01-17,2024-07-08,true,1
+188,Carlos,López,carlos.lópez188@email.com,+1 772-760-5261,1985-01-01,Tucumán,Chile,76682,Silver,2022-02-23,2024-03-10,false,1
+189,Pedro,González,pedro.gonzález189@email.com,+1 210-755-5810,2003-08-03,Tucumán,Argentina,25187,Silver,2021-01-10,2025-10-13,true,0
+190,Mateo,Ramírez,mateo.ramírez190@email.com,+1 360-123-3849,1964-04-11,Rosario,Chile,81870,Gold,2020-05-25,2023-03-09,false,0
+191,Carlos,García,carlos.garcía191@email.com,+1 728-265-3430,2002-01-14,Mar del Plata,Argentina,44982,Gold,2022-02-21,2024-05-13,true,0
+192,Diego,Rodríguez,diego.rodríguez192@email.com,+1 410-653-8218,1994-06-14,La Plata,Argentina,79920,Platinum,2022-06-26,2023-11-12,false,0
+193,Pedro,González,pedro.gonzález193@email.com,+1 200-725-2162,1993-11-13,La Plata,Chile,74664,Bronze,2024-03-07,2025-11-22,false,1
+194,Lucas,González,lucas.gonzález194@email.com,+1 657-725-5108,1963-04-28,Buenos Aires,Colombia,24520,Platinum,2022-05-15,2022-07-14,true,0
+195,Martín,Torres,martín.torres195@email.com,+1 302-927-6638,1983-09-09,La Plata,Uruguay,19219,Bronze,2023-06-16,2024-05-21,true,1
+196,Ana,García,ana.garcía196@email.com,+1 405-779-9776,1976-06-06,Tucumán,México,62496,Platinum,2021-02-04,2024-02-09,false,0
+197,Valentina,Rodríguez,valentina.rodríguez197@email.com,+1 764-599-2701,1980-12-31,Córdoba,Uruguay,45811,Gold,2023-03-18,2025-01-13,true,1
+198,Sofía,Rodríguez,sofía.rodríguez198@email.com,+1 882-898-2993,1975-08-05,Rosario,Argentina,97581,Silver,2024-05-12,2024-05-27,false,0
+199,Gabriel,González,gabriel.gonzález199@email.com,+1 469-928-5772,1980-06-02,Córdoba,Argentina,27397,Silver,2023-10-02,2024-04-05,false,0
+200,Camila,García,camila.garcía200@email.com,+1 819-492-5084,1968-09-12,La Plata,Argentina,99574,Silver,2023-04-01,2024-03-02,true,1
+201,Lucía,Sánchez,lucía.sánchez201@email.com,+1 674-839-9997,1979-05-02,Rosario,Chile,67751,Silver,2020-08-09,2022-09-24,true,0
+202,Camila,Rodríguez,camila.rodríguez202@email.com,+1 788-894-7112,1994-02-06,Buenos Aires,Argentina,50562,Silver,2024-02-13,2025-06-17,true,0
+203,Lucas,Fernández,lucas.fernández203@email.com,+1 482-659-3336,1999-01-16,Córdoba,Argentina,40405,Gold,2021-09-25,2025-12-19,true,1
+204,Martín,López,martín.lópez204@email.com,+1 944-424-8155,2000-12-15,Córdoba,Perú,70721,Bronze,2023-08-06,2024-01-02,true,0
+205,Laura,Sánchez,laura.sánchez205@email.com,+1 322-782-3699,1993-06-12,Mar del Plata,Colombia,99807,Silver,2020-07-22,2024-03-25,false,1
+206,Juan,Pérez,juan.pérez206@email.com,+1 358-783-6061,1976-02-05,Salta,México,49322,Platinum,2024-01-20,2025-12-08,false,0
+207,Diego,Fernández,diego.fernández207@email.com,+1 634-775-6103,1971-03-16,Córdoba,México,67322,Silver,2021-01-19,2025-05-19,true,0
+208,Juan,Sánchez,juan.sánchez208@email.com,+1 209-461-3537,1987-07-16,Santa Fe,Argentina,92004,Silver,2020-09-08,2021-12-15,false,1
+209,Lucía,Rodríguez,lucía.rodríguez209@email.com,+1 601-227-9384,1971-05-23,Buenos Aires,Argentina,97246,Platinum,2024-03-25,2025-08-27,true,0
+210,María,Rodríguez,maría.rodríguez210@email.com,+1 325-267-4591,1963-01-31,Buenos Aires,Perú,37573,Bronze,2023-09-20,2023-12-15,false,0
+211,Camila,Rodríguez,camila.rodríguez211@email.com,+1 586-841-4265,1975-06-30,Rosario,Chile,50446,Silver,2020-07-06,2023-10-30,false,1
+212,Laura,Martínez,laura.martínez212@email.com,+1 485-204-3186,1990-01-22,Córdoba,Argentina,55028,Bronze,2021-09-30,2026-02-01,false,0
+213,Lucía,Martínez,lucía.martínez213@email.com,+1 519-153-3467,2004-01-22,Córdoba,Colombia,85117,Bronze,2020-09-06,2021-02-14,false,1
+214,María,Ramírez,maría.ramírez214@email.com,+1 677-627-5102,1995-01-08,Buenos Aires,México,43699,Bronze,2021-06-22,2025-06-27,true,0
+215,Valentina,Pérez,valentina.pérez215@email.com,+1 209-656-6607,1991-06-02,Rosario,Argentina,57300,Gold,2022-03-29,2024-12-05,true,1
+216,Ana,Pérez,ana.pérez216@email.com,+1 534-176-4357,1986-08-11,Mendoza,Perú,35071,Bronze,2023-07-05,2024-07-27,true,0
+217,Lucía,Martínez,lucía.martínez217@email.com,+1 379-924-5945,1969-07-10,Rosario,México,93131,Bronze,2022-08-22,2025-07-13,false,1
+218,Ana,Torres,ana.torres218@email.com,+1 304-358-6189,1977-11-12,Rosario,Argentina,96768,Silver,2021-07-27,2021-07-27,false,1
+219,Mateo,Martínez,mateo.martínez219@email.com,+1 914-726-5979,1973-05-03,Tucumán,Chile,32421,Gold,2021-10-22,2023-09-16,true,0
+220,Lucas,Fernández,lucas.fernández220@email.com,+1 667-853-4687,1997-07-04,Buenos Aires,Chile,44358,Platinum,2023-06-24,2025-04-08,true,1
+221,Sofía,González,sofía.gonzález221@email.com,+1 362-315-1548,1961-08-23,Neuquén,Uruguay,51901,Platinum,2024-02-24,2024-09-12,true,0
+222,Ana,López,ana.lópez222@email.com,+1 553-744-7430,1963-02-03,La Plata,Perú,74886,Bronze,2021-08-03,2022-09-29,true,1
+223,Sofía,Rodríguez,sofía.rodríguez223@email.com,+1 470-352-7111,1972-04-25,Mendoza,Argentina,36223,Silver,2020-07-16,2022-11-24,false,0
+224,Ana,Torres,ana.torres224@email.com,+1 696-412-1922,1973-11-22,Neuquén,Argentina,57662,Gold,2021-07-23,2022-01-01,true,0
+225,Mateo,Rodríguez,mateo.rodríguez225@email.com,+1 656-298-8734,1983-09-17,Neuquén,Uruguay,28217,Gold,2020-07-26,2023-07-17,true,1
+226,Lucas,Torres,lucas.torres226@email.com,+1 216-616-5978,1987-11-06,Santa Fe,Argentina,50395,Platinum,2020-01-04,2021-08-31,true,0
+227,Pedro,Rodríguez,pedro.rodríguez227@email.com,+1 481-336-4373,1983-04-01,Córdoba,Argentina,73150,Bronze,2022-04-07,2023-07-08,true,1
+228,Camila,Torres,camila.torres228@email.com,+1 594-252-4079,1975-08-20,Mendoza,Colombia,61472,Platinum,2021-03-06,2021-06-29,false,0
+229,Camila,Pérez,camila.pérez229@email.com,+1 945-150-3789,1992-06-23,Salta,Perú,59194,Silver,2023-10-26,2025-09-19,true,0
+230,María,Pérez,maría.pérez230@email.com,+1 781-877-7087,1963-08-11,Buenos Aires,Argentina,37454,Platinum,2021-12-22,2022-08-27,false,0
+231,Mateo,Torres,mateo.torres231@email.com,+1 332-221-9052,1977-01-18,Santa Fe,Argentina,78639,Gold,2022-02-05,2022-10-01,true,1
+232,Martín,González,martín.gonzález232@email.com,+1 881-873-6051,1979-08-22,Santa Fe,Argentina,15439,Platinum,2021-10-14,2023-01-24,true,0
+233,María,Martínez,maría.martínez233@email.com,+1 307-385-2978,2000-10-04,Buenos Aires,Colombia,48561,Silver,2020-06-23,2021-10-27,true,1
+234,Lucía,Sánchez,lucía.sánchez234@email.com,+1 809-487-7603,1980-10-04,Córdoba,México,83500,Gold,2021-11-08,2023-08-17,true,1
+235,Juan,Pérez,juan.pérez235@email.com,+1 484-701-9942,1986-08-19,Salta,México,55454,Gold,2021-12-31,2024-11-17,true,1
+236,Sofía,García,sofía.garcía236@email.com,+1 206-298-3333,1968-11-07,Salta,Argentina,68858,Silver,2022-01-21,2024-10-14,false,1
+237,Laura,Martínez,laura.martínez237@email.com,+1 577-321-2705,1989-01-25,Santa Fe,Perú,35148,Gold,2020-06-08,2025-07-17,false,0
+238,Laura,López,laura.lópez238@email.com,+1 298-305-5570,2001-10-05,Buenos Aires,Uruguay,33545,Silver,2023-09-17,2026-01-24,true,1
+239,María,González,maría.gonzález239@email.com,+1 863-875-1912,1988-01-13,Mendoza,Argentina,50939,Bronze,2024-04-03,2025-12-10,false,0
+240,Martín,García,martín.garcía240@email.com,+1 707-636-9326,1970-12-21,Rosario,Uruguay,80560,Bronze,2021-07-08,2021-07-16,false,1
+241,Pedro,Sánchez,pedro.sánchez241@email.com,+1 506-973-6643,2000-09-02,Santa Fe,Chile,34035,Gold,2022-04-18,2023-07-09,true,0
+242,Sofía,Torres,sofía.torres242@email.com,+1 763-365-6890,1980-05-03,Santa Fe,Chile,74509,Silver,2021-08-20,2023-10-30,false,0
+243,Camila,Fernández,camila.fernández243@email.com,+1 977-499-1253,1996-01-30,Tucumán,Argentina,84882,Bronze,2022-11-10,2023-01-17,true,1
+244,Laura,Rodríguez,laura.rodríguez244@email.com,+1 938-955-5625,1995-03-06,Rosario,Argentina,71795,Platinum,2021-11-23,2022-08-18,true,0
+245,Mateo,González,mateo.gonzález245@email.com,+1 322-719-3861,1981-01-04,Salta,Colombia,85229,Platinum,2022-03-25,2025-06-20,true,1
+246,Martín,Torres,martín.torres246@email.com,+1 501-983-6004,1982-03-02,Mar del Plata,Uruguay,80263,Platinum,2024-02-04,2025-06-28,true,0
+247,Mateo,Fernández,mateo.fernández247@email.com,+1 407-914-5696,2001-05-19,Tucumán,Argentina,57561,Platinum,2024-03-04,2024-07-31,true,1
+248,Carlos,Sánchez,carlos.sánchez248@email.com,+1 685-480-5320,1980-03-11,Mendoza,Chile,62777,Gold,2021-11-08,2021-11-11,true,0
+249,Gabriel,Pérez,gabriel.pérez249@email.com,+1 518-145-5331,1971-06-30,Santa Fe,Uruguay,99044,Platinum,2021-05-18,2021-07-09,true,1
+250,Lucía,Torres,lucía.torres250@email.com,+1 333-128-6857,1999-03-27,Santa Fe,Argentina,45640,Bronze,2022-03-29,2023-08-02,false,0
+251,María,González,maría.gonzález251@email.com,+1 233-218-5040,1966-10-03,Mar del Plata,Perú,38938,Silver,2022-06-13,2023-06-25,true,1
+252,Sofía,Torres,sofía.torres252@email.com,+1 888-813-3656,1996-12-01,Neuquén,México,85772,Silver,2023-03-28,2023-08-25,false,0
+253,Diego,Martínez,diego.martínez253@email.com,+1 681-665-8750,1976-07-23,Mar del Plata,México,99802,Gold,2020-02-27,2021-05-25,true,0
+254,Carlos,Ramírez,carlos.ramírez254@email.com,+1 373-443-4171,1990-07-01,Mendoza,Perú,69950,Silver,2023-01-17,2024-04-15,true,1
+255,Lucía,López,lucía.lópez255@email.com,+1 791-490-5359,1983-12-10,Córdoba,Argentina,85210,Gold,2020-02-03,2024-07-22,false,1
+256,Ana,Rodríguez,ana.rodríguez256@email.com,+1 657-951-4261,1979-07-19,Neuquén,Chile,88493,Platinum,2022-05-27,2024-01-23,true,1
+257,Mateo,Ramírez,mateo.ramírez257@email.com,+1 514-822-7622,1968-09-15,Rosario,Argentina,56574,Bronze,2020-08-11,2020-12-23,true,1
+258,Juan,Pérez,juan.pérez258@email.com,+1 596-638-5785,1967-09-30,Mar del Plata,México,18009,Silver,2023-01-02,2023-10-02,true,1
+259,Lucas,García,lucas.garcía259@email.com,+1 349-581-6818,1997-03-22,La Plata,Uruguay,86230,Bronze,2020-04-30,2024-12-23,true,1
+260,Ana,López,ana.lópez260@email.com,+1 809-200-8035,1963-12-07,Córdoba,Argentina,63231,Silver,2021-02-17,2025-07-26,false,1
+261,Sofía,Rodríguez,sofía.rodríguez261@email.com,+1 631-453-4620,1980-01-01,La Plata,México,58066,Silver,2020-03-14,2024-12-05,true,0
+262,Camila,Pérez,camila.pérez262@email.com,+1 787-425-8165,1990-04-24,Salta,México,92243,Platinum,2023-01-31,2024-08-14,true,0
+263,María,Sánchez,maría.sánchez263@email.com,+1 318-559-7540,1974-06-16,Mar del Plata,Argentina,12033,Platinum,2022-10-27,2025-09-18,true,1
+264,María,González,maría.gonzález264@email.com,+1 712-315-5786,1995-08-22,Rosario,Chile,93841,Silver,2022-05-13,2025-06-15,true,0
+265,Carlos,García,carlos.garcía265@email.com,+1 495-920-2498,1992-07-31,Neuquén,Argentina,20028,Gold,2021-04-13,2022-12-22,true,1
+266,Gabriel,Sánchez,gabriel.sánchez266@email.com,+1 372-960-1152,1996-09-05,Tucumán,Argentina,76016,Gold,2023-06-17,2024-08-16,false,0
+267,Lucas,Pérez,lucas.pérez267@email.com,+1 906-652-2313,1970-02-16,Córdoba,México,26143,Silver,2022-04-23,2023-12-24,true,0
+268,Pedro,Martínez,pedro.martínez268@email.com,+1 284-435-1016,1999-05-30,Salta,México,78441,Silver,2022-03-24,2023-02-11,true,1
+269,Gabriel,López,gabriel.lópez269@email.com,+1 814-891-1494,1967-12-08,Buenos Aires,Argentina,57810,Bronze,2022-05-16,2025-05-01,true,0
+270,María,Rodríguez,maría.rodríguez270@email.com,+1 477-300-8761,1967-01-21,Mar del Plata,Argentina,76712,Bronze,2023-07-29,2025-09-08,true,0
+271,Martín,Martínez,martín.martínez271@email.com,+1 609-940-4351,2005-11-02,Neuquén,Uruguay,93956,Silver,2021-01-03,2021-10-10,false,1
+272,Laura,Ramírez,laura.ramírez272@email.com,+1 929-509-6456,2005-06-17,Neuquén,Argentina,72700,Platinum,2023-06-29,2025-05-26,true,1
+273,Laura,Rodríguez,laura.rodríguez273@email.com,+1 555-875-8460,2000-09-01,Neuquén,Argentina,12886,Bronze,2020-04-26,2024-10-16,false,1
+274,Laura,Martínez,laura.martínez274@email.com,+1 731-296-7346,1968-07-19,Mar del Plata,Argentina,18814,Silver,2022-09-04,2025-10-22,true,1
+275,Juan,Martínez,juan.martínez275@email.com,+1 803-333-6944,1975-07-31,Rosario,Argentina,16113,Bronze,2022-10-01,2023-05-09,false,0
+276,Juan,Fernández,juan.fernández276@email.com,+1 638-612-3161,1979-05-30,Mar del Plata,Colombia,34437,Bronze,2021-07-30,2024-06-06,false,1
+277,María,Martínez,maría.martínez277@email.com,+1 258-259-6681,1979-03-18,Buenos Aires,Perú,58920,Platinum,2023-03-21,2023-10-19,true,1
+278,Lucas,Torres,lucas.torres278@email.com,+1 262-301-5827,1991-08-31,La Plata,Chile,38901,Bronze,2020-06-11,2025-06-30,true,0
+279,Valentina,González,valentina.gonzález279@email.com,+1 292-798-5725,1996-09-18,Santa Fe,Colombia,15323,Bronze,2020-04-18,2026-01-21,true,1
+280,Mateo,Rodríguez,mateo.rodríguez280@email.com,+1 426-352-7375,1997-06-16,Buenos Aires,México,47746,Gold,2021-04-03,2021-10-27,true,0
+281,Lucas,Ramírez,lucas.ramírez281@email.com,+1 899-372-3695,1994-10-21,Salta,Argentina,56187,Platinum,2021-10-13,2024-07-25,true,1
+282,Diego,Sánchez,diego.sánchez282@email.com,+1 845-946-4902,2004-10-28,Córdoba,Argentina,37651,Bronze,2021-11-13,2022-02-27,true,0
+283,María,Martínez,maría.martínez283@email.com,+1 487-757-3003,1990-02-25,Salta,Argentina,54183,Bronze,2024-01-01,2024-01-08,true,0
+284,Laura,Pérez,laura.pérez284@email.com,+1 215-998-6330,1998-11-08,Buenos Aires,Argentina,81952,Silver,2023-06-24,2026-02-24,true,1
+285,Sofía,Pérez,sofía.pérez285@email.com,+1 611-281-9647,1963-09-13,Mar del Plata,Colombia,83231,Gold,2022-07-20,2025-07-05,true,1
+286,Diego,Pérez,diego.pérez286@email.com,+1 303-869-3175,2004-11-06,Santa Fe,Uruguay,14170,Platinum,2023-01-12,2024-06-28,true,1
+287,Valentina,Sánchez,valentina.sánchez287@email.com,+1 575-837-6653,1998-11-25,La Plata,Argentina,90751,Bronze,2021-09-30,2023-12-31,false,1
+288,Lucas,Pérez,lucas.pérez288@email.com,+1 855-906-9855,2002-06-24,Santa Fe,Argentina,78110,Platinum,2022-05-09,2023-01-01,true,1
+289,Lucas,Martínez,lucas.martínez289@email.com,+1 943-984-4179,1975-02-27,Mar del Plata,Chile,27122,Gold,2022-07-27,2023-12-02,true,1
+290,Mateo,López,mateo.lópez290@email.com,+1 348-193-9562,1977-01-13,Buenos Aires,México,16064,Gold,2023-07-10,2024-05-15,true,1
+291,Camila,Pérez,camila.pérez291@email.com,+1 539-222-2079,2004-05-25,Tucumán,Argentina,32025,Silver,2020-06-25,2020-12-21,true,0
+292,Laura,Torres,laura.torres292@email.com,+1 505-128-4799,1973-05-20,Tucumán,Perú,54617,Silver,2023-12-10,2024-07-28,false,0
+293,Sofía,Rodríguez,sofía.rodríguez293@email.com,+1 846-554-9608,1997-05-31,Rosario,México,18075,Platinum,2022-01-25,2025-06-25,true,0
+294,Valentina,González,valentina.gonzález294@email.com,+1 775-983-9852,1983-04-21,Mar del Plata,Argentina,64495,Gold,2023-03-03,2024-06-21,false,1
+295,Mateo,Martínez,mateo.martínez295@email.com,+1 312-874-3734,1993-08-30,Rosario,Uruguay,50026,Gold,2020-05-14,2024-06-05,true,0
+296,Laura,Fernández,laura.fernández296@email.com,+1 455-858-8443,1983-11-10,Mar del Plata,México,65064,Silver,2024-02-20,2025-02-03,false,0
+297,Mateo,López,mateo.lópez297@email.com,+1 398-815-9468,2005-12-10,Santa Fe,Argentina,86015,Bronze,2023-07-23,2026-01-23,true,0
+298,Lucas,González,lucas.gonzález298@email.com,+1 590-808-9346,1982-01-05,Buenos Aires,Argentina,43617,Silver,2020-05-17,2025-04-15,true,0
+299,María,García,maría.garcía299@email.com,+1 371-362-5747,1986-01-18,Tucumán,Argentina,48653,Gold,2022-11-13,2023-06-04,true,1
+300,Sofía,Ramírez,sofía.ramírez300@email.com,+1 326-319-2537,1986-09-20,Salta,Argentina,84441,Bronze,2021-05-27,2023-03-22,false,0
+301,Juan,López,juan.lópez301@email.com,+1 775-434-9585,1969-04-23,Santa Fe,Argentina,55246,Gold,2022-09-07,2026-01-14,true,0
+302,Camila,Rodríguez,camila.rodríguez302@email.com,+1 510-232-9774,1989-12-15,Rosario,Argentina,39227,Bronze,2023-09-02,2026-01-21,true,0
+303,Carlos,Rodríguez,carlos.rodríguez303@email.com,+1 730-765-7340,1979-10-06,Mendoza,Perú,22471,Silver,2023-11-15,2025-06-04,true,1
+304,Sofía,Fernández,sofía.fernández304@email.com,+1 502-525-9147,1961-08-15,Rosario,Uruguay,18862,Platinum,2024-03-23,2024-05-26,true,0
+305,Diego,Torres,diego.torres305@email.com,+1 787-473-9860,1995-03-19,Buenos Aires,México,15338,Silver,2021-08-12,2021-08-19,true,0
+306,Martín,Ramírez,martín.ramírez306@email.com,+1 716-363-8984,1960-08-20,Neuquén,Argentina,73538,Gold,2020-06-01,2023-10-18,true,0
+307,Mateo,Pérez,mateo.pérez307@email.com,+1 874-603-8118,1962-10-01,Buenos Aires,Chile,43439,Gold,2020-07-30,2024-12-29,false,0
+308,Ana,Torres,ana.torres308@email.com,+1 400-168-1088,1989-05-18,Rosario,Argentina,79221,Silver,2021-12-19,2023-02-09,false,0
+309,Mateo,Martínez,mateo.martínez309@email.com,+1 377-322-5695,1997-04-01,Buenos Aires,Argentina,32583,Platinum,2021-11-21,2025-02-22,false,1
+310,Gabriel,López,gabriel.lópez310@email.com,+1 626-974-9766,1985-03-23,Neuquén,Colombia,52720,Gold,2022-07-12,2023-10-21,true,0
+311,Valentina,García,valentina.garcía311@email.com,+1 766-130-4387,1971-12-14,Rosario,Uruguay,31169,Platinum,2023-06-19,2023-10-08,false,0
+312,Ana,Sánchez,ana.sánchez312@email.com,+1 476-636-5924,1998-08-25,Córdoba,Perú,69127,Silver,2023-06-25,2025-12-10,true,0
+313,Laura,Sánchez,laura.sánchez313@email.com,+1 409-586-1776,1963-04-10,Tucumán,México,22093,Silver,2023-09-15,2024-07-03,true,1
+314,Lucía,López,lucía.lópez314@email.com,+1 207-384-3655,1970-09-23,La Plata,Argentina,82619,Platinum,2021-09-28,2022-05-03,false,0
+315,Lucas,Fernández,lucas.fernández315@email.com,+1 245-677-3979,2002-04-04,Tucumán,México,83373,Bronze,2024-03-28,2024-09-26,true,0
+316,Valentina,Rodríguez,valentina.rodríguez316@email.com,+1 370-649-3488,2004-03-15,La Plata,Colombia,79612,Silver,2023-11-19,2024-05-10,true,0
+317,Lucas,Pérez,lucas.pérez317@email.com,+1 882-422-3399,1979-09-05,Tucumán,Argentina,27650,Platinum,2020-07-13,2023-09-22,false,0
+318,Laura,García,laura.garcía318@email.com,+1 949-624-7956,1998-10-06,Salta,Argentina,71106,Platinum,2023-01-09,2024-09-08,true,0
+319,Ana,Sánchez,ana.sánchez319@email.com,+1 459-930-4520,1972-02-18,Rosario,Argentina,81484,Gold,2020-06-11,2025-12-24,true,1
+320,Ana,Ramírez,ana.ramírez320@email.com,+1 992-279-4799,1968-01-16,Buenos Aires,Argentina,62268,Bronze,2022-09-27,2023-04-17,true,0
+321,Lucía,Martínez,lucía.martínez321@email.com,+1 628-738-3603,1978-04-09,Tucumán,Perú,60267,Silver,2023-12-26,2025-08-23,true,0
+322,Lucía,Ramírez,lucía.ramírez322@email.com,+1 653-526-3772,1971-01-13,Neuquén,Uruguay,60921,Bronze,2022-09-06,2023-08-26,true,0
+323,Sofía,Martínez,sofía.martínez323@email.com,+1 396-530-7531,1976-12-16,Mar del Plata,Perú,34846,Gold,2024-03-14,2025-12-02,false,1
+324,Diego,Martínez,diego.martínez324@email.com,+1 844-791-2268,1974-05-16,Mar del Plata,Argentina,43733,Platinum,2023-07-15,2024-05-17,true,1
+325,Lucas,Sánchez,lucas.sánchez325@email.com,+1 858-857-3096,1967-08-10,Neuquén,Chile,15112,Bronze,2023-08-16,2024-09-21,true,0
+326,Gabriel,Ramírez,gabriel.ramírez326@email.com,+1 898-651-2931,1999-05-22,Mar del Plata,Argentina,64323,Platinum,2022-07-16,2024-02-01,false,0
+327,Diego,Sánchez,diego.sánchez327@email.com,+1 391-577-7761,1968-07-29,Mar del Plata,México,81780,Gold,2022-06-01,2025-04-15,false,1
+328,Sofía,López,sofía.lópez328@email.com,+1 312-857-4626,2001-10-18,Neuquén,Colombia,64025,Silver,2023-11-12,2024-10-18,true,1
+329,Diego,Rodríguez,diego.rodríguez329@email.com,+1 620-722-4471,1998-07-22,Córdoba,México,87883,Silver,2022-07-03,2022-10-04,false,0
+330,Diego,González,diego.gonzález330@email.com,+1 658-884-4974,1984-04-12,Santa Fe,Chile,84865,Silver,2023-09-02,2023-11-29,true,0
+331,María,Rodríguez,maría.rodríguez331@email.com,+1 795-402-2149,1970-03-14,Neuquén,Chile,69689,Platinum,2023-08-14,2024-01-09,false,0
+332,Pedro,Martínez,pedro.martínez332@email.com,+1 694-743-8205,1977-02-06,La Plata,México,24799,Bronze,2021-08-30,2021-12-25,true,1
+333,Camila,Pérez,camila.pérez333@email.com,+1 932-986-1289,2005-08-12,Mar del Plata,México,17733,Gold,2021-03-21,2021-03-27,true,0
+334,Lucas,González,lucas.gonzález334@email.com,+1 975-899-5349,1966-07-08,Mar del Plata,Argentina,35223,Bronze,2022-07-15,2024-05-31,false,1
+335,Lucas,Ramírez,lucas.ramírez335@email.com,+1 858-203-6758,1976-02-08,Santa Fe,Argentina,30889,Silver,2022-08-11,2023-05-02,true,1
+336,Carlos,García,carlos.garcía336@email.com,+1 224-375-6416,2001-07-25,Santa Fe,Argentina,55601,Gold,2022-11-17,2026-02-11,true,1
+337,Laura,López,laura.lópez337@email.com,+1 774-166-3770,1965-07-31,Salta,Perú,24837,Bronze,2021-03-22,2026-01-21,true,1
+338,Sofía,Sánchez,sofía.sánchez338@email.com,+1 392-962-2981,1971-08-05,Santa Fe,Argentina,24901,Bronze,2023-01-18,2023-01-25,false,1
+339,Sofía,Torres,sofía.torres339@email.com,+1 859-528-5418,1981-06-19,Córdoba,México,80674,Bronze,2021-10-12,2021-12-06,true,0
+340,Gabriel,García,gabriel.garcía340@email.com,+1 361-177-6939,1989-11-10,Salta,Uruguay,85943,Silver,2020-08-02,2024-07-02,true,0
+341,Pedro,López,pedro.lópez341@email.com,+1 484-548-5936,1963-01-31,La Plata,Chile,75422,Bronze,2022-03-18,2022-08-24,true,0
+342,Gabriel,Rodríguez,gabriel.rodríguez342@email.com,+1 280-637-9509,1993-05-13,Buenos Aires,Argentina,52794,Bronze,2022-09-07,2024-11-24,false,0
+343,Diego,Ramírez,diego.ramírez343@email.com,+1 697-185-7021,2003-01-20,La Plata,México,81342,Bronze,2022-08-02,2025-12-15,true,0
+344,Mateo,Rodríguez,mateo.rodríguez344@email.com,+1 421-931-4688,1997-10-06,Córdoba,México,20041,Platinum,2023-04-18,2024-08-02,false,1
+345,Camila,Ramírez,camila.ramírez345@email.com,+1 585-993-1387,1993-04-13,Rosario,Uruguay,76764,Platinum,2021-08-19,2021-11-25,true,0
+346,Laura,Sánchez,laura.sánchez346@email.com,+1 853-280-7568,2002-08-26,Buenos Aires,Uruguay,22180,Platinum,2023-11-03,2023-12-17,true,1
+347,Pedro,Ramírez,pedro.ramírez347@email.com,+1 651-850-1433,1994-05-27,Mendoza,Argentina,82529,Platinum,2020-07-31,2021-05-15,true,1
+348,Pedro,Sánchez,pedro.sánchez348@email.com,+1 614-786-1166,1984-09-26,La Plata,México,81821,Platinum,2021-10-24,2024-10-05,true,0
+349,Ana,Sánchez,ana.sánchez349@email.com,+1 876-817-5750,1976-06-15,Santa Fe,Perú,31809,Silver,2023-07-02,2025-08-29,false,0
+350,Carlos,López,carlos.lópez350@email.com,+1 576-907-9640,1994-07-06,Santa Fe,México,55772,Bronze,2021-08-20,2025-11-10,false,1
+351,Mateo,González,mateo.gonzález351@email.com,+1 264-745-6600,2005-12-23,Mar del Plata,Colombia,78012,Gold,2021-06-29,2022-09-05,false,0
+352,Ana,García,ana.garcía352@email.com,+1 886-547-8641,1962-01-01,Mendoza,Argentina,36324,Bronze,2023-01-03,2023-04-08,true,1
+353,Laura,Fernández,laura.fernández353@email.com,+1 434-889-6310,1980-04-08,Mendoza,Argentina,71578,Platinum,2023-02-24,2023-05-31,true,1
+354,Camila,Martínez,camila.martínez354@email.com,+1 657-747-3200,1975-10-27,Tucumán,Uruguay,92728,Platinum,2021-03-26,2022-09-08,true,0
+355,Lucía,López,lucía.lópez355@email.com,+1 890-191-2412,1993-04-21,Santa Fe,Argentina,84802,Gold,2020-11-11,2025-08-24,true,1
+356,María,Pérez,maría.pérez356@email.com,+1 907-422-3649,1985-09-09,Rosario,México,98265,Gold,2023-06-08,2025-04-04,true,0
+357,Laura,Rodríguez,laura.rodríguez357@email.com,+1 921-652-7251,1999-01-03,Tucumán,Perú,72842,Silver,2020-12-06,2024-01-03,false,1
+358,Pedro,Fernández,pedro.fernández358@email.com,+1 442-653-6183,1987-03-01,Santa Fe,Argentina,76964,Bronze,2020-08-30,2020-09-25,true,1
+359,Laura,Martínez,laura.martínez359@email.com,+1 840-544-7659,1991-10-31,Córdoba,México,63109,Bronze,2023-12-30,2024-03-07,true,0
+360,Valentina,Fernández,valentina.fernández360@email.com,+1 335-295-1089,2003-09-29,Santa Fe,Chile,79651,Bronze,2021-09-22,2024-01-23,false,1
+361,Valentina,González,valentina.gonzález361@email.com,+1 954-616-1979,2003-12-03,Neuquén,Argentina,36942,Platinum,2022-09-02,2024-11-04,true,0
+362,Martín,López,martín.lópez362@email.com,+1 455-790-2135,1991-08-03,Salta,México,92162,Platinum,2021-10-08,2024-07-22,false,1
+363,María,Pérez,maría.pérez363@email.com,+1 737-285-3761,1986-01-27,Santa Fe,Chile,19007,Gold,2020-06-29,2023-08-14,true,1
+364,Lucía,Rodríguez,lucía.rodríguez364@email.com,+1 345-775-5880,1974-05-17,Neuquén,Chile,80322,Bronze,2021-03-26,2025-11-14,true,0
+365,Gabriel,García,gabriel.garcía365@email.com,+1 347-668-1438,1964-01-02,Neuquén,Perú,99602,Bronze,2020-04-03,2020-08-21,true,0
+366,Valentina,Rodríguez,valentina.rodríguez366@email.com,+1 219-470-9921,1975-05-18,La Plata,Uruguay,38011,Silver,2021-09-25,2023-04-07,true,1
+367,Gabriel,Martínez,gabriel.martínez367@email.com,+1 238-674-2454,1986-06-27,La Plata,Argentina,33252,Bronze,2023-12-11,2025-11-08,true,0
+368,Valentina,Fernández,valentina.fernández368@email.com,+1 540-341-2886,2003-02-18,Salta,Argentina,99721,Bronze,2024-04-23,2025-02-19,true,1
+369,Carlos,Ramírez,carlos.ramírez369@email.com,+1 930-595-1670,2001-07-05,Mendoza,México,48720,Gold,2022-04-10,2024-09-22,true,1
+370,María,García,maría.garcía370@email.com,+1 940-467-1970,1980-05-01,Mar del Plata,Colombia,63048,Silver,2023-02-10,2023-10-01,true,1
+371,Camila,González,camila.gonzález371@email.com,+1 519-806-2300,2002-12-29,Buenos Aires,Colombia,85906,Platinum,2022-08-16,2024-08-26,true,0
+372,Valentina,Torres,valentina.torres372@email.com,+1 996-440-7705,1980-01-04,Córdoba,Argentina,19292,Gold,2022-09-24,2023-02-13,true,1
+373,María,López,maría.lópez373@email.com,+1 891-268-9984,1963-05-05,Tucumán,Uruguay,49817,Bronze,2022-06-16,2022-07-04,true,0
+374,Mateo,Torres,mateo.torres374@email.com,+1 544-305-3164,1967-12-07,Tucumán,Argentina,58302,Gold,2022-11-03,2023-10-09,true,0
+375,Lucía,Rodríguez,lucía.rodríguez375@email.com,+1 844-212-1652,1989-07-16,Buenos Aires,Colombia,43319,Gold,2022-06-26,2022-08-02,false,0
+376,Laura,Martínez,laura.martínez376@email.com,+1 231-646-1888,1960-05-31,Buenos Aires,Colombia,64970,Gold,2020-06-14,2025-02-21,true,1
+377,Pedro,González,pedro.gonzález377@email.com,+1 496-555-6446,1974-04-20,Rosario,Argentina,67053,Bronze,2022-07-11,2024-05-16,true,1
+378,Mateo,Sánchez,mateo.sánchez378@email.com,+1 610-536-9606,1983-03-30,Mar del Plata,Chile,21162,Platinum,2023-12-29,2024-10-10,true,0
+379,María,Sánchez,maría.sánchez379@email.com,+1 608-284-4167,1987-10-08,Salta,Argentina,16036,Platinum,2020-05-14,2024-02-23,true,0
+380,Mateo,Fernández,mateo.fernández380@email.com,+1 342-597-6448,1962-12-21,Tucumán,México,18098,Gold,2022-07-19,2024-07-31,false,1
+381,Lucas,López,lucas.lópez381@email.com,+1 901-153-3243,1999-08-30,Salta,Argentina,53512,Platinum,2022-12-04,2023-09-11,true,0
+382,Martín,Fernández,martín.fernández382@email.com,+1 262-321-6668,1978-03-29,Córdoba,Argentina,52954,Bronze,2020-07-12,2025-01-01,true,0
+383,Mateo,Torres,mateo.torres383@email.com,+1 741-118-5068,1968-05-24,Rosario,Chile,51157,Platinum,2020-06-18,2024-04-11,true,1
+384,Sofía,Pérez,sofía.pérez384@email.com,+1 927-760-1933,1991-02-25,Buenos Aires,Argentina,78225,Bronze,2022-03-11,2025-02-03,false,0
+385,Pedro,Sánchez,pedro.sánchez385@email.com,+1 578-159-7720,1990-02-10,Tucumán,Argentina,81573,Gold,2023-05-25,2023-11-22,true,1
+386,Sofía,Pérez,sofía.pérez386@email.com,+1 529-743-1764,1993-02-22,Neuquén,Uruguay,42012,Silver,2020-07-21,2021-11-10,false,0
+387,Laura,Ramírez,laura.ramírez387@email.com,+1 555-401-9561,1965-01-03,Buenos Aires,Colombia,72286,Platinum,2022-03-06,2023-03-10,false,1
+388,Lucas,Torres,lucas.torres388@email.com,+1 913-742-3177,2005-04-25,Santa Fe,Colombia,36992,Platinum,2022-11-07,2023-04-01,true,1
+389,Lucía,Sánchez,lucía.sánchez389@email.com,+1 341-722-3021,1960-05-11,Mendoza,Colombia,82268,Platinum,2021-06-17,2021-09-01,true,0
+390,Laura,García,laura.garcía390@email.com,+1 901-961-5910,1974-08-28,Córdoba,Colombia,81992,Platinum,2021-04-10,2021-07-24,true,0
+391,Martín,González,martín.gonzález391@email.com,+1 853-981-5642,2005-02-10,Mendoza,Uruguay,76611,Platinum,2021-04-13,2024-12-30,false,0
+392,Laura,Sánchez,laura.sánchez392@email.com,+1 719-720-7075,1962-04-15,Mendoza,Argentina,90783,Platinum,2022-07-28,2024-09-28,true,1
+393,Juan,García,juan.garcía393@email.com,+1 816-734-9111,1968-06-11,Córdoba,Uruguay,59465,Bronze,2021-08-19,2025-07-28,true,0
+394,Ana,González,ana.gonzález394@email.com,+1 231-896-2401,1974-12-04,Tucumán,Argentina,11402,Platinum,2022-12-12,2026-02-13,true,1
+395,Camila,Sánchez,camila.sánchez395@email.com,+1 912-548-8399,2002-12-07,Salta,Perú,70903,Platinum,2021-04-13,2022-08-14,true,0
+396,Lucas,González,lucas.gonzález396@email.com,+1 415-820-5900,1970-03-29,La Plata,Uruguay,57035,Bronze,2020-09-04,2022-04-22,true,0
+397,Valentina,García,valentina.garcía397@email.com,+1 698-830-8636,1970-01-14,Salta,Argentina,38729,Gold,2020-04-26,2021-01-04,true,1
+398,Lucía,González,lucía.gonzález398@email.com,+1 445-950-3821,2000-03-03,Salta,Chile,65247,Silver,2020-08-18,2025-12-07,true,1
+399,Camila,Ramírez,camila.ramírez399@email.com,+1 698-657-8351,1997-08-17,Mar del Plata,Perú,66903,Bronze,2021-11-22,2022-01-24,true,1
+400,Martín,Fernández,martín.fernández400@email.com,+1 973-611-5854,1997-12-18,Neuquén,Argentina,18163,Platinum,2023-04-06,2023-12-20,true,1
+401,Laura,González,laura.gonzález401@email.com,+1 929-930-2914,1971-08-06,Córdoba,Argentina,77517,Bronze,2021-12-13,2023-12-14,true,1
+402,Laura,Sánchez,laura.sánchez402@email.com,+1 719-120-6002,1979-11-11,Rosario,Uruguay,44551,Silver,2020-01-10,2025-07-21,true,1
+403,Gabriel,Sánchez,gabriel.sánchez403@email.com,+1 932-808-9286,1989-06-13,Salta,Argentina,35923,Platinum,2022-02-06,2025-12-28,true,1
+404,Camila,Pérez,camila.pérez404@email.com,+1 907-377-3819,1983-04-25,Neuquén,Argentina,70470,Silver,2023-03-15,2024-03-09,true,1
+405,Lucas,Sánchez,lucas.sánchez405@email.com,+1 853-382-4844,1983-09-28,Córdoba,Colombia,40859,Silver,2020-11-07,2021-01-20,true,0
+406,Lucía,Sánchez,lucía.sánchez406@email.com,+1 264-730-3106,2004-01-03,La Plata,Argentina,45182,Bronze,2023-01-22,2023-02-11,true,1
+407,Pedro,Pérez,pedro.pérez407@email.com,+1 227-294-9981,1989-10-11,Salta,Uruguay,27037,Gold,2020-07-20,2025-05-08,true,0
+408,María,Rodríguez,maría.rodríguez408@email.com,+1 579-316-2302,2004-02-28,Mendoza,Argentina,76229,Gold,2023-08-02,2023-11-26,true,1
+409,Sofía,Fernández,sofía.fernández409@email.com,+1 308-854-5055,1962-02-25,Salta,Colombia,78522,Bronze,2023-09-14,2024-06-28,true,1
+410,Valentina,Ramírez,valentina.ramírez410@email.com,+1 995-255-2860,1971-05-23,Salta,Uruguay,43274,Silver,2021-08-12,2025-12-03,true,0
+411,María,Rodríguez,maría.rodríguez411@email.com,+1 821-420-6063,1960-12-25,Buenos Aires,Argentina,49926,Bronze,2023-03-14,2025-07-29,false,0
+412,Sofía,Torres,sofía.torres412@email.com,+1 600-909-9057,1996-01-25,Santa Fe,Argentina,31177,Gold,2022-11-16,2025-02-09,false,0
+413,Pedro,Torres,pedro.torres413@email.com,+1 986-398-6645,1976-01-22,Salta,Argentina,38221,Platinum,2022-06-09,2024-07-21,true,1
+414,Juan,Martínez,juan.martínez414@email.com,+1 733-182-8002,1969-03-20,Santa Fe,Argentina,34221,Platinum,2021-03-24,2023-04-06,false,1
+415,Juan,García,juan.garcía415@email.com,+1 590-561-7301,1965-01-17,Rosario,Argentina,73501,Platinum,2020-12-21,2021-06-19,true,1
+416,Juan,Fernández,juan.fernández416@email.com,+1 216-989-8010,1973-01-06,Tucumán,Argentina,92291,Gold,2022-06-24,2024-12-31,true,0
+417,Diego,García,diego.garcía417@email.com,+1 806-936-2189,1983-06-20,Córdoba,Argentina,69488,Gold,2020-11-15,2021-01-11,true,1
+418,Valentina,Rodríguez,valentina.rodríguez418@email.com,+1 659-259-8555,1985-06-17,Salta,Argentina,10337,Bronze,2022-01-09,2022-06-02,true,1
+419,Gabriel,Ramírez,gabriel.ramírez419@email.com,+1 212-776-2725,1987-08-10,Salta,México,86818,Silver,2022-04-14,2023-03-19,true,0
+420,Sofía,Pérez,sofía.pérez420@email.com,+1 536-907-7656,1990-04-02,Córdoba,Argentina,52529,Bronze,2021-01-11,2021-08-08,true,1
+421,Laura,Sánchez,laura.sánchez421@email.com,+1 346-897-5205,2002-06-23,Córdoba,México,96133,Silver,2023-12-20,2024-09-29,true,1
+422,Ana,Torres,ana.torres422@email.com,+1 224-644-7080,1988-07-29,Buenos Aires,México,90085,Bronze,2020-10-12,2022-12-24,true,0
+423,Sofía,García,sofía.garcía423@email.com,+1 510-701-8229,1988-02-15,Rosario,Uruguay,82683,Gold,2021-08-12,2024-10-30,true,0
+424,Carlos,Martínez,carlos.martínez424@email.com,+1 479-345-4156,1990-05-25,Buenos Aires,Colombia,77551,Silver,2021-10-10,2023-04-10,false,1
+425,Sofía,Fernández,sofía.fernández425@email.com,+1 958-867-6596,1996-07-15,Mendoza,Colombia,74434,Bronze,2022-09-12,2023-12-11,true,1
+426,Juan,López,juan.lópez426@email.com,+1 649-336-8341,1997-05-06,La Plata,Colombia,66038,Gold,2022-06-15,2025-09-05,false,1
+427,Juan,López,juan.lópez427@email.com,+1 680-536-1884,1962-04-26,La Plata,México,27048,Silver,2022-05-24,2025-08-12,false,0
+428,Laura,Sánchez,laura.sánchez428@email.com,+1 785-873-4193,2002-09-13,Tucumán,Uruguay,47252,Platinum,2021-08-31,2024-08-31,true,0
+429,Laura,López,laura.lópez429@email.com,+1 794-179-1041,2002-12-21,Córdoba,Argentina,19536,Platinum,2021-10-24,2025-01-18,true,1
+430,Juan,López,juan.lópez430@email.com,+1 416-723-8972,2004-01-14,Salta,Argentina,11050,Silver,2021-10-18,2022-07-23,true,1
+431,Juan,Pérez,juan.pérez431@email.com,+1 596-837-7952,2002-04-11,Córdoba,Argentina,27108,Gold,2021-11-10,2023-10-15,false,1
+432,Laura,Martínez,laura.martínez432@email.com,+1 866-199-2332,1965-02-04,Rosario,Colombia,14930,Gold,2022-05-11,2023-12-28,false,1
+433,Camila,Torres,camila.torres433@email.com,+1 239-539-1782,1975-09-01,Córdoba,Uruguay,69355,Gold,2024-03-09,2025-12-11,true,1
+434,Lucas,Martínez,lucas.martínez434@email.com,+1 240-316-5375,1990-11-07,Neuquén,Argentina,91152,Silver,2023-03-16,2026-02-20,true,1
+435,Lucía,Sánchez,lucía.sánchez435@email.com,+1 876-778-5805,1985-08-16,Salta,Chile,98777,Gold,2022-05-15,2023-10-14,true,1
+436,Valentina,Sánchez,valentina.sánchez436@email.com,+1 735-956-9148,1990-07-16,Neuquén,Argentina,93629,Silver,2021-10-31,2025-09-23,true,1
+437,Valentina,Fernández,valentina.fernández437@email.com,+1 369-394-9071,1996-06-12,Córdoba,Chile,56542,Platinum,2023-02-12,2025-02-08,false,0
+438,Pedro,García,pedro.garcía438@email.com,+1 657-984-3144,1983-06-17,Tucumán,México,60721,Silver,2022-08-21,2024-12-17,false,0
+439,Pedro,Martínez,pedro.martínez439@email.com,+1 505-542-1375,1978-01-20,Neuquén,Colombia,50950,Gold,2023-10-08,2024-08-08,true,1
+440,Sofía,Martínez,sofía.martínez440@email.com,+1 845-605-9313,1973-07-04,Mendoza,Uruguay,42604,Bronze,2023-01-22,2024-10-12,true,1
+441,Lucas,Rodríguez,lucas.rodríguez441@email.com,+1 740-709-5984,1996-04-01,Buenos Aires,Argentina,94824,Silver,2023-12-06,2024-10-09,true,1
+442,Lucas,Sánchez,lucas.sánchez442@email.com,+1 428-184-2615,1971-08-12,Buenos Aires,Argentina,60999,Gold,2021-06-22,2022-09-18,true,1
+443,Martín,González,martín.gonzález443@email.com,+1 984-626-4713,1973-11-09,Salta,Chile,80560,Platinum,2022-11-23,2023-07-21,true,1
+444,Sofía,Martínez,sofía.martínez444@email.com,+1 670-255-4252,1976-07-16,La Plata,Argentina,18132,Gold,2023-11-30,2025-04-09,true,0
+445,Martín,Fernández,martín.fernández445@email.com,+1 668-407-6472,1967-11-25,Mar del Plata,Perú,20826,Silver,2021-10-09,2025-05-19,false,1
+446,Lucas,Torres,lucas.torres446@email.com,+1 514-149-7865,1984-07-22,Salta,Uruguay,93571,Silver,2021-02-13,2022-05-08,false,1
+447,Martín,Pérez,martín.pérez447@email.com,+1 978-363-6457,1988-09-28,Tucumán,Argentina,26460,Bronze,2021-05-24,2023-03-16,true,0
+448,Mateo,Martínez,mateo.martínez448@email.com,+1 576-124-2745,1997-01-02,Córdoba,Perú,48798,Silver,2024-02-26,2024-07-28,false,1
+449,Lucas,Sánchez,lucas.sánchez449@email.com,+1 815-368-5356,1975-06-15,La Plata,México,44762,Silver,2023-02-13,2025-07-13,false,1
+450,Mateo,González,mateo.gonzález450@email.com,+1 436-140-1158,2000-03-02,Tucumán,Chile,90509,Silver,2020-04-11,2023-08-27,true,0
+451,Laura,González,laura.gonzález451@email.com,+1 906-221-9416,1987-08-30,Mendoza,Perú,40709,Silver,2020-05-09,2024-03-07,true,1
+452,Carlos,Pérez,carlos.pérez452@email.com,+1 822-298-8502,1999-03-20,Mendoza,Argentina,40657,Platinum,2021-11-13,2025-05-23,false,0
+453,Martín,García,martín.garcía453@email.com,+1 728-442-3032,1987-06-27,Mar del Plata,Argentina,29312,Silver,2022-05-23,2024-06-20,true,1
+454,Martín,González,martín.gonzález454@email.com,+1 438-860-2989,1974-10-29,Mar del Plata,Argentina,15478,Platinum,2023-09-02,2023-10-09,false,0
+455,Laura,González,laura.gonzález455@email.com,+1 570-877-4088,2002-05-07,Córdoba,Argentina,37789,Platinum,2021-04-17,2026-01-19,false,0
+456,Camila,Fernández,camila.fernández456@email.com,+1 724-282-7837,1968-03-22,Santa Fe,México,46512,Bronze,2020-01-01,2021-01-23,false,0
+457,Carlos,Torres,carlos.torres457@email.com,+1 206-286-2012,1993-06-22,Buenos Aires,Colombia,51163,Silver,2022-03-19,2025-02-13,true,0
+458,Pedro,González,pedro.gonzález458@email.com,+1 596-233-3399,2001-02-01,Salta,Argentina,33910,Gold,2023-01-25,2023-10-25,true,0
+459,Camila,García,camila.garcía459@email.com,+1 472-395-3959,1993-11-14,Córdoba,Argentina,80574,Bronze,2023-09-23,2024-02-28,true,1
+460,Lucía,Torres,lucía.torres460@email.com,+1 662-454-7812,1987-01-17,Buenos Aires,Argentina,70512,Gold,2020-10-28,2023-11-15,true,1
+461,Mateo,Ramírez,mateo.ramírez461@email.com,+1 655-641-2923,1967-01-16,Mendoza,Argentina,30035,Silver,2021-10-31,2025-05-04,true,0
+462,Valentina,Torres,valentina.torres462@email.com,+1 953-156-8752,1981-04-03,Mendoza,Argentina,22816,Silver,2021-12-31,2025-01-01,true,0
+463,Lucas,Martínez,lucas.martínez463@email.com,+1 281-893-7505,1978-01-13,La Plata,Argentina,81577,Platinum,2020-01-05,2023-04-08,true,0
+464,Camila,Fernández,camila.fernández464@email.com,+1 568-734-5834,1993-01-09,Santa Fe,Uruguay,88448,Silver,2021-06-11,2025-10-29,false,0
+465,Diego,López,diego.lópez465@email.com,+1 230-997-6870,1968-11-19,Santa Fe,Perú,15308,Silver,2022-03-19,2022-08-07,true,0
+466,Sofía,Martínez,sofía.martínez466@email.com,+1 478-971-1763,2005-06-21,Rosario,Argentina,11131,Silver,2020-12-22,2023-07-31,true,1
+467,Mateo,López,mateo.lópez467@email.com,+1 714-389-5865,1967-03-11,Rosario,Uruguay,81572,Bronze,2022-02-06,2022-11-03,true,1
+468,Lucía,Martínez,lucía.martínez468@email.com,+1 673-992-2418,2003-01-01,Mendoza,Argentina,44193,Bronze,2020-02-23,2023-05-09,true,1
+469,Lucía,Fernández,lucía.fernández469@email.com,+1 938-544-6766,1961-02-23,Salta,México,92212,Bronze,2024-05-11,2026-01-20,true,1
+470,Camila,Rodríguez,camila.rodríguez470@email.com,+1 859-404-6588,1971-03-29,Rosario,Perú,41586,Gold,2022-09-11,2024-04-21,false,0
+471,Valentina,Torres,valentina.torres471@email.com,+1 303-665-4633,2001-09-03,Buenos Aires,Argentina,54588,Bronze,2023-04-29,2024-05-16,true,0
+472,Gabriel,Fernández,gabriel.fernández472@email.com,+1 267-853-8339,2004-03-11,Tucumán,México,85298,Platinum,2023-11-17,2024-04-16,true,0
+473,Ana,García,ana.garcía473@email.com,+1 458-672-6323,1966-09-04,Buenos Aires,Uruguay,30232,Platinum,2021-06-06,2024-09-24,true,1
+474,Pedro,Martínez,pedro.martínez474@email.com,+1 909-546-7376,1978-03-01,Mendoza,Colombia,78833,Gold,2021-12-19,2022-12-19,false,1
+475,Laura,Sánchez,laura.sánchez475@email.com,+1 650-122-9275,1999-11-12,Salta,Uruguay,74739,Silver,2021-07-29,2025-07-07,true,1
+476,Mateo,Fernández,mateo.fernández476@email.com,+1 969-327-5932,1987-03-20,Neuquén,Chile,58739,Silver,2021-11-02,2024-10-22,false,0
+477,Camila,Sánchez,camila.sánchez477@email.com,+1 922-574-8410,1971-01-10,Córdoba,Uruguay,58545,Gold,2023-02-15,2025-02-13,true,1
+478,Sofía,González,sofía.gonzález478@email.com,+1 729-340-7641,1974-09-08,Córdoba,Chile,48843,Platinum,2023-01-03,2024-08-02,true,1
+479,Lucía,Pérez,lucía.pérez479@email.com,+1 619-646-6295,1978-10-04,La Plata,Argentina,82252,Bronze,2021-03-12,2025-09-04,false,0
+480,Laura,Ramírez,laura.ramírez480@email.com,+1 407-868-6562,1984-03-08,Mar del Plata,Argentina,12579,Platinum,2021-07-29,2026-01-18,true,1
+481,Carlos,Fernández,carlos.fernández481@email.com,+1 318-157-8025,1994-04-22,Tucumán,Colombia,55559,Bronze,2023-06-01,2024-03-12,false,1
+482,Laura,Torres,laura.torres482@email.com,+1 886-937-4379,2001-08-04,Salta,Argentina,10217,Gold,2023-10-04,2025-05-09,true,1
+483,Carlos,González,carlos.gonzález483@email.com,+1 787-855-1973,1967-09-15,Tucumán,Perú,68044,Platinum,2020-03-15,2024-03-23,true,1
+484,Gabriel,Pérez,gabriel.pérez484@email.com,+1 846-130-1328,1982-11-09,Rosario,Argentina,20106,Platinum,2022-07-31,2023-01-06,true,1
+485,Mateo,López,mateo.lópez485@email.com,+1 700-377-6509,1974-05-31,Santa Fe,Colombia,60176,Platinum,2020-08-07,2024-02-10,true,1
+486,Mateo,Fernández,mateo.fernández486@email.com,+1 480-557-9910,1986-10-02,Mar del Plata,Colombia,15762,Platinum,2022-06-01,2024-12-09,true,0
+487,Pedro,González,pedro.gonzález487@email.com,+1 356-233-7088,1961-04-27,Mendoza,Uruguay,29079,Gold,2022-07-29,2026-02-02,true,1
+488,Lucía,Martínez,lucía.martínez488@email.com,+1 640-101-2147,1964-09-10,Buenos Aires,Colombia,23079,Silver,2022-04-15,2025-03-27,true,1
+489,Lucía,Ramírez,lucía.ramírez489@email.com,+1 758-249-3983,1966-12-05,Mar del Plata,Chile,46194,Bronze,2022-06-08,2026-03-09,true,1
+490,Mateo,Sánchez,mateo.sánchez490@email.com,+1 762-647-6177,1966-06-19,Santa Fe,Argentina,58023,Bronze,2021-06-28,2024-08-29,true,0
+491,Carlos,Fernández,carlos.fernández491@email.com,+1 807-997-3549,1963-12-01,Neuquén,Colombia,34465,Platinum,2022-05-30,2022-10-11,true,0
+492,Ana,García,ana.garcía492@email.com,+1 432-406-6070,1992-10-12,Rosario,Perú,90999,Gold,2024-03-19,2025-03-06,true,0
+493,Juan,Fernández,juan.fernández493@email.com,+1 364-254-2641,1981-11-15,Buenos Aires,México,42524,Silver,2023-07-31,2024-08-19,true,0
+494,Laura,Ramírez,laura.ramírez494@email.com,+1 241-875-1695,1972-09-26,Neuquén,Argentina,94401,Gold,2020-11-29,2024-09-08,true,1
+495,Sofía,González,sofía.gonzález495@email.com,+1 868-654-9301,1973-12-04,Santa Fe,Argentina,60736,Silver,2020-02-24,2022-08-11,false,1
+496,Lucía,Fernández,lucía.fernández496@email.com,+1 784-588-5449,1996-12-20,La Plata,Chile,53316,Gold,2020-05-21,2023-07-26,false,0
+497,Laura,García,laura.garcía497@email.com,+1 589-877-5826,1977-01-20,Mendoza,Chile,26214,Gold,2020-02-12,2023-03-12,true,1
+498,Laura,Torres,laura.torres498@email.com,+1 484-332-1341,2005-06-15,Rosario,Colombia,36565,Gold,2022-02-16,2022-05-21,true,1
+499,Gabriel,Pérez,gabriel.pérez499@email.com,+1 389-853-5226,1970-08-18,Mendoza,Argentina,17947,Gold,2022-07-21,2023-05-27,true,1
+500,Sofía,González,sofía.gonzález500@email.com,+1 223-910-4860,1967-08-13,Santa Fe,Colombia,63423,Bronze,2022-11-15,2023-12-13,true,1
