@@ -1,175 +1,236 @@
-import pandas as pd
-import glob
-import os
+# =========================================
+# 📦 IMPORTS
+# =========================================
 
-# Verificar que existen los archivos CSV descargados
-archivos = glob.glob('data/ecommerce_*.csv')
-if not archivos:
-    print("❌ No se encontraron los archivos. Asegurate de descargarlos en la carpeta data/")
-    print("   Deberías tener: ecommerce_orders.csv, ecommerce_customers.csv, etc.")
-else:
+# pandas: librería principal para manipulación de datos tabulares (DataFrames)
+# La usamos para leer CSV, limpiar datos, hacer joins y agregaciones
+import pandas as pd  
+
+# glob: permite buscar archivos usando patrones (ej: ecommerce_*.csv)
+# Lo usamos para cargar automáticamente todas las tablas del dataset
+import glob  
+
+# os: manejo del sistema de archivos (crear carpetas, rutas, tamaños de archivos)
+# Lo usamos para crear la carpeta output y comparar tamaños CSV vs Parquet
+import os  
+
+
+# =========================================
+# 📥 EXTRACT
+# =========================================
+
+def extract():
+    """
+    Extrae todos los archivos CSV del dataset.
+
+    Estrategia:
+    - Usamos glob para evitar hardcodear nombres de archivos
+    - Esto permite escalar si se agregan nuevas tablas
+    """
+
+    archivos = glob.glob('data/ecommerce_*.csv')
+
+    if not archivos:
+        print("❌ No se encontraron archivos en /data")
+        return {}
+
     print(f"📂 Archivos encontrados: {len(archivos)}")
-    for f in sorted(archivos):
-        print(f"  - {os.path.basename(f)}")
 
-# Cargar los CSVs principales
-df_orders = pd.read_csv('data/ecommerce_orders.csv')
-df_order_items = pd.read_csv('data/ecommerce_order_items.csv')
-df_customers = pd.read_csv('data/ecommerce_customers.csv')
-df_products = pd.read_csv('data/ecommerce_products.csv')
+    data = {}
 
-# Explorar
-print(f"\n📈 Resumen:")
-print(f"Orders: {len(df_orders)} filas, {len(df_orders.columns)} columnas")
-print(f"Order Items: {len(df_order_items)} filas")
-print(f"Customers: {len(df_customers)} filas")
-print(f"Products: {len(df_products)} filas")
+    for file in archivos:
+        # Convertimos el nombre del archivo en nombre de tabla
+        # ecommerce_orders.csv → orders
+# os.path.basename funciona tanto en Windows como Linux/Mac
+        nombre_tabla = os.path.basename(file) \
+                    .replace('ecommerce_', '') \
+                    .replace('.csv', '')
 
-print("\n🔍 Primeras filas de orders:")
-print(df_orders.head())
-print("\n📋 Info de orders:")
-print(df_orders.info())
+        # Leemos el CSV en un DataFrame
+        data[nombre_tabla] = pd.read_csv(file)
 
+        print(f"✔ Cargado: {nombre_tabla}")
 
-# Ver nulos por columna
-print("Nulos por columna:")
-print(df_orders.isnull().sum())
+    return data
 
-# Decisión: ¿eliminar o rellenar?
-# Si son pocos (<5%), podemos eliminar
-# Si son muchos, mejor rellenar con un valor por defecto
+# =========================================
+# 🔄 TRANSFORM
+# =========================================
 
-# Ejemplo: eliminar filas con nulos en campos críticos
-df_orders_clean = df_orders.dropna(subset=['customer_id']) #, 'promotion_id']) 
+def transform(data):
+    """
+    Limpia, transforma y genera métricas.
 
-# Ejemplo: rellenar con 0 en campos numéricos opcionales
-df_orders_clean['promotion_id'] = df_orders_clean['promotion_id'].fillna(0)
-# df_orders_clean['notes'] = df_orders_clean['notes'].fillna(0)
-df_orders_clean['notes'] = df_orders_clean['notes'].fillna('')
+    Incluye:
+    - Exploración inicial
+    - Manejo de nulos
+    - Eliminación de duplicados
+    - Corrección de tipos
+    - Joins entre tablas
+    - Métricas de negocio
+    """
 
-print(f"Filas antes: {len(df_orders)}, después: {len(df_orders_clean)}")
+    # Seleccionamos tablas principales
+    df_orders = data['orders']
+    df_order_items = data['order_items']
+    df_customers = data['customers']
+    df_products = data['products']
 
+    # ---------------------------------
+    # 🔍 EXPLORACIÓN
+    # ---------------------------------
 
+    # info(): muestra tipos de datos y nulos
+    print("\n📋 Info de orders:")
+    print(df_orders.info())
 
-# Ver duplicados
-duplicados = df_orders_clean.duplicated().sum()
-print(f"Duplicados encontrados: {duplicados}")
-
-# Ver duplicados por columna específica (ej: order_id debería ser único)
-duplicados_id = df_orders_clean.duplicated(subset=['order_id']).sum()
-print(f"Order IDs duplicados: {duplicados_id}")
-
-# Eliminar duplicados
-df_orders_clean = df_orders_clean.drop_duplicates()
-
-# Si hay IDs duplicados, quedarse con el más reciente
-df_orders_clean = df_orders_clean.sort_values('order_date').drop_duplicates(
-    subset=['order_id'], 
-    keep='last'
-)
+    # isnull().sum(): cuenta nulos por columna
+    print("\n🔍 Nulos por columna:")
+    print(df_orders.isnull().sum())
 
 
-# Ver tipos actuales
-print(df_orders_clean.dtypes)
+    # ---------------------------------
+    # 🧹 LIMPIEZA
+    # ---------------------------------
 
-# Convertir fechas
-df_orders_clean['order_date'] = pd.to_datetime(df_orders_clean['order_date'])
+    # 📌 NULOS
+    # customer_id es crítico → no podemos analizar ventas sin cliente
+    df_orders = df_orders.dropna(subset=['customer_id'])
 
-# Asegurar que los números sean numéricos
-df_orders_clean['subtotal'] = pd.to_numeric(df_orders_clean['subtotal'], errors='coerce')
-df_orders_clean['total_amount'] = pd.to_numeric(df_orders_clean['total_amount'], errors='coerce')
+    # promotion_id es opcional → rellenamos con 0 (sin promoción)
+    df_orders['promotion_id'] = df_orders['promotion_id'].fillna(0)
 
-# Verificar
-print("\nTipos después de conversión:")
-print(df_orders_clean.dtypes)
-
-
+    # notes es texto → evitamos NaN para no romper joins/exportaciones
+    df_orders['notes'] = df_orders['notes'].fillna('')
 
 
+    # 📌 DUPLICADOS
 
-# -----------------------------
-# Métricas de ventas
-# -----------------------------
+    # Detectamos duplicados completos
+    duplicados = df_orders.duplicated().sum()
+    print(f"\nDuplicados encontrados: {duplicados}")
 
-# Ventas por cliente
-ventas_cliente = df_orders_clean.groupby('customer_id')['total_amount'].sum().reset_index()
+    # Detectamos duplicados por clave de negocio
+    duplicados_id = df_orders.duplicated(subset=['order_id']).sum()
+    print(f"Order_id duplicados: {duplicados_id}")
 
-# Ventas por mes
-df_orders_clean['month'] = df_orders_clean['order_date'].dt.to_period('M')
-ventas_mes = df_orders_clean.groupby('month')['total_amount'].sum().reset_index()
-
-print("📊 Métricas creadas")
-print(ventas_cliente.head())
-print(ventas_mes.head())
-
-
+    # Estrategia:
+    # - Ordenamos por fecha
+    # - Nos quedamos con el registro más reciente
+    df_orders = df_orders.sort_values('order_date') \
+                         .drop_duplicates(subset=['order_id'], keep='last')
 
 
+    # 📌 TIPOS DE DATOS
+
+    # Convertimos fechas (muchas veces vienen como string en CSV)
+    df_orders['order_date'] = pd.to_datetime(df_orders['order_date'])
+
+    # Convertimos montos a numérico
+    df_orders['total_amount'] = pd.to_numeric(df_orders['total_amount'], errors='coerce')
 
 
-# Crear carpeta output si no existe
-import os
-os.makedirs('output', exist_ok=True)
+    # ---------------------------------
+    # 🔗 JOINS (INTEGRACIÓN DE DATOS)
+    # ---------------------------------
 
-# Guardar métricas en CSV
-ventas_cliente.to_csv('output/ventas_por_cliente.csv', index=False)
-ventas_mes.to_csv('output/ventas_por_mes.csv', index=False)
+    """
+    Unimos tablas para tener un dataset analítico completo.
 
-# Guardar datos limpios
-df_orders_clean.to_csv('output/orders_clean.csv', index=False)
+    order_items = detalle de productos por orden
+    orders = información general de la orden
+    products = info del producto
+    customers = info del cliente
+    """
 
-print("✅ Archivos CSV guardados en output/")
-
-
-
-
-# Instalar pyarrow si no lo tenés: pip install pyarrow
-
-# Guardar en Parquet
-df_orders_clean.to_parquet('output/orders_clean.parquet', index=False)
-
-# Comparar tamaños
-csv_size = os.path.getsize('output/orders_clean.csv') / 1024
-parquet_size = os.path.getsize('output/orders_clean.parquet') / 1024
-
-print(f"Tamaño CSV: {csv_size:.1f} KB")
-print(f"Tamaño Parquet: {parquet_size:.1f} KB")
-print(f"Parquet es {csv_size/parquet_size:.1f}x más chico")
+    df = df_order_items.merge(df_orders, on='order_id', how='left') \
+                       .merge(df_products, on='product_id', how='left') \
+                       .merge(df_customers, on='customer_id', how='left')
 
 
+    # ---------------------------------
+    # 📊 MÉTRICAS DE NEGOCIO
+    # ---------------------------------
+    # Guardamos métricas en CSV (uso negocio / Excel)
+    # 🎯 1. Top 5 clientes que más gastaron
+    top_clientes = df.groupby('customer_id').agg(
+        total_gastado=('total_amount', 'sum'),
+        total_ordenes=('order_id', 'nunique')
+    ).reset_index().sort_values('total_gastado', ascending=False).head(5)
 
 
+    # 🎯 2. Producto más vendido (por cantidad)
+    top_productos = df.groupby('product_id').agg(
+        unidades_vendidas=('quantity', 'sum')
+    ).reset_index().sort_values('unidades_vendidas', ascending=False)
 
 
-# Crear README.md
+    # 🎯 3. Evolución de ventas mes a mes
 
-readme_content = """
-# Mi Primer ETL con Python
+    # Creamos columna mes a partir de la fecha
+    df['month'] = df['order_date'].dt.to_period('M')
 
-## Descripción
-Pipeline ETL que procesa datos de e-commerce para generar métricas de ventas.
+    ventas_mes = df.groupby('month').agg(
+        ventas_totales=('total_amount', 'sum'),
+        ordenes=('order_id', 'nunique')
+    ).reset_index().sort_values('month')
 
-## Cómo correr
-```bash
-pip install pandas pyarrow
-python etl.py
-```
 
-## Decisiones de limpieza
-- **Nulos**: Eliminé filas sin customer_id, product_id o total (campos críticos)
-- **Duplicados**: Eliminé duplicados por order_id, quedándome con el más reciente
-- **Tipos**: Convertí order_date a datetime, total y quantity a numérico
+    # ✅ MOSTRAR RESULTADOS (VALIDACIÓN)
+    print("\n🏆 Top 5 clientes:")
+    print(top_clientes)
 
-## Output
-- `ventas_por_cliente.csv`: Total gastado y cantidad de órdenes por cliente
-- `ventas_por_mes.csv`: Ventas totales por mes
-- `orders_clean.parquet`: Dataset limpio en formato optimizado
+    print("\n📦 Top productos:")
+    print(top_productos.head())
 
-## Autor
-[Franco Pirez] - [Martes 17/03/2026]
-"""
+    print("\n📈 Ventas mensuales:")
+    print(ventas_mes.head())
 
-with open('README.md', 'w') as f:
-    f.write(readme_content)
+    print("\n📊 Métricas generadas correctamente")
 
-print("✅ README.md creado")
+    return df_orders, top_clientes, top_productos, ventas_mes
+
+
+# =========================================
+# 📤 LOAD
+# =========================================
+
+def load(df_orders, top_clientes, top_productos, ventas_mes):
+    """
+    Guarda los resultados del pipeline.
+
+    - CSV: formato universal (Excel-friendly)
+    - Parquet: optimizado para análisis (más liviano y rápido)
+    """
+
+    # Creamos carpeta output si no existe
+    os.makedirs('output', exist_ok=True)
+
+    # Guardamos dataset limpio en formato eficiente (uso analítico)
+    df_orders.to_parquet('output/orders_clean.parquet', index=False)
+
+    # Guardamos métricas en CSV (para usuarios no técnicos)
+    top_clientes.to_csv('output/top_clientes.csv', index=False)
+    top_productos.to_csv('output/top_productos.csv', index=False)
+    ventas_mes.to_csv('output/ventas_mensuales.csv', index=False)
+
+    print("✅ Datos guardados en /output")
+
+
+# =========================================
+# ▶ MAIN
+# =========================================
+
+def main():
+    """
+    Orquesta el pipeline completo ETL
+    """
+
+    data = extract()
+    df_orders, top_clientes, top_productos, ventas_mes = transform(data)
+    load(df_orders, top_clientes, top_productos, ventas_mes)
+
+
+# Punto de entrada del script
+if __name__ == "__main__":
+    main()
